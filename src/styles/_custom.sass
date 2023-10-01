@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 8%
 
 
 @keyframes float1
@@ -17,3 +17,181 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #000 !important
+
+.boton *, .boton--sm *
+  color: #fff !important
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+.tema1
+  .tarjetas-up
+    overflow: hidden
+    border-radius: 5px
+    position: relative
+    &_card
+      transition: bottom .3s ease-in-out
+      position: absolute
+      border-radius: 5px
+      width: 100%
+      height: 100%
+      left: 0
+      bottom: -75%
+      @media (max-width: $bp-max-md)
+        bottom: -75%
+      i:last-child
+        display: none
+    &:hover
+      .tarjetas-up_card
+        bottom: 0%
+        @media (max-width: $bp-max-xl)
+          bottom: -15%
+        @media (max-width: $bp-max-lg)
+          bottom: 0
+        @media (max-width: $bp-max-md)
+          bottom: -30%
+        @media (max-width: $bp-max-sm)
+          bottom: -20%
+        @media (max-width: $bp-max-xs)
+          bottom: 0
+      i:first-child
+        display: none
+      i:last-child
+        display: block
+  .tarjeta.color-secundario
+    background-color: #DBF9BD
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+  .tarjeta.tarjeta-1
+    width: 90%
+    height: 60%
+    border-radius: 0px
+    border-end-start-radius: 30px
+    border-start-end-radius: 30px
+  .tabla-b
+    tr.cabecera-a
+      background-color: #E0E5EC
+      color: $black
+    .cabecera-b
+      background-color: lighten($color-secundario, 60%)
+  .tabla-b th
+    padding: 10px
+  .tabla-b td, .tabla-c td, .tabla-b th, .tabla-c th
+    border-right: 1px solid #e8e8e8
+  .tarjeta.color-acento-botones--borde
+    background-color: #DBF9BD
+    border: solid 4px #DBF9BD
+  .tabs-a__tab
+    background-color: #E8E8E8
+
+.tema2
+  .tabla-a thead
+    background-color: $color-acento-contenido
+    color: #fff
+  .tarjetas-up
+    overflow: hidden
+    border-radius: 5px
+    position: relative
+    &_card
+      transition: bottom .3s ease-in-out
+      position: absolute
+      border-radius: 5px
+      width: 100%
+      height: 100%
+      left: 0
+      bottom: -75%
+      @media (max-width: $bp-max-md)
+        bottom: -75%
+      i:last-child
+        display: none
+    &:hover
+      .tarjetas-up_card
+        bottom: 0%
+        @media (max-width: $bp-max-xl)
+          bottom: -15%
+        @media (max-width: $bp-max-lg)
+          bottom: 0
+        @media (max-width: $bp-max-md)
+          bottom: -30%
+        @media (max-width: $bp-max-sm)
+          bottom: -20%
+        @media (max-width: $bp-max-xs)
+          bottom: 0
+      i:first-child
+        display: none
+      i:last-child
+        display: block
+
+.tema3
+  .tarjeta.tarjeta-1
+    width: 90%
+    height: 60%
+    border-radius: 0px
+    border-end-start-radius: 30px
+    border-start-end-radius: 30px
+  .tarjeta.color-secundario
+    background-color: #DBF9BD
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+  .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+    background-color: $color-acento-botones
+    color: #fff
+  .tarjeta--gris
+    background-color: #DBF9BD
+  .linea-tiempo-d__item__content__title
+    margin-bottom: 30px
+  .tarjeta.color-secundario1
+    background-color: #FFFBE5
+  tr, td
+    border: 1px solid #e8e8e8
+
+.tema4
+  .tarjeta.color-primario
+    background-color: #DBF9BD
+  .tarjeta.color-primario, h4, p
+    color: #000 !important
+  .tarjeta.tarjeta--azul1
+    background-color: #DBF9BD
+  .tarjeta.tarjeta--azul1, h4, p
+    color: #000 !important
+  .tarjeta.color-primario, h2, p
+    color: #000 !important
+  .fa-calendar-check:before
+    font-size: 2rem
+  .tabla-b.color-acento-contenido
+    border-top: 5px solid $color-acento-contenido
+  .tabla-b, td
+    border: 1px solid #e8e8e8
+
+.tema5
+  .tarjeta.color-primario
+    background-color: #DBF9BD
+  .tarjeta.color-primario, li, i
+    color: #000 !important
+  .tarjeta.color-primario, h2, p
+    color: #000 !important
+  .tarjeta.tarjeta-1
+    width: 90%
+    height: 60%
+    border-radius: 0px
+    border-end-start-radius: 30px
+    border-start-end-radius: 30px
+  .tarjeta.color-acento-contenido1
+    border-radius: 0px
+    border: 2px solid #e8e8e8
+    background-color: #F3F9FF
+  .tarjeta--azul
+    background-color: #E8E8E8
+  .tarjeta.tarjeta--azul.acordion__activo
+    background-color: #DBF9BD
