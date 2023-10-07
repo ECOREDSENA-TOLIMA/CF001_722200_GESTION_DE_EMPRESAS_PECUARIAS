@@ -299,8 +299,9 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos bovinos, bufalinos, ovinos y caprinos")
-        h4 Parámetros productivos bovinos, bufalinos, ovinos y caprinos
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos bovinos bufalinos ovinos y caprinos")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 1.] <em>Parámetros productivos bovinos, bufalinos, ovinos y caprinos</em> 
 
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-12(alt="")
@@ -344,7 +345,8 @@
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
       .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para aves")
-        h4 Parámetros productivos para aves
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 2.] <em>Parámetros productivos para aves</em> 
         
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-12(alt="")
@@ -388,7 +390,8 @@
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
       .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para porcinos")
-        h4 Parámetros productivos para porcinos
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 3.] <em>Parámetros productivos para porcinos</em> 
         
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-12(alt="")
@@ -430,7 +433,8 @@
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
       .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para especies menores")
-        h4 Parámetros productivos para especies menores
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 4.] <em>Parámetros productivos para especies menores</em> 
         
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-12(alt="")
@@ -472,7 +476,8 @@
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
       .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para peces")
-        h4 Parámetros productivos para peces
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 5.] <em>Parámetros productivos para peces</em> 
         
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-12(alt="")
@@ -536,9 +541,11 @@
 
         .row(titulo="Paso 3")
           .row.justify-content-center.align-items-center
-            .col-10.col-md-10.col-lg-8 
+            .col-10.col-md-10.col-lg-8
+              .titulo-sexto.color-acento-contenido.mb-5
+                p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Principales aspectos de las Buenas Prácticas Pecuarias  - BPP</em> 
               figure
-                img(src='@/assets/curso/temas/tema1/img-16.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img-16.svg', alt='La figura muestra los principales aspectos de las buenas prácticas pecuarias, entre los que se tienen: Seguridad de las apersonas, medio ambiente, bienestar animal, inocuidad alimentaria.')
 
         .row(titulo="Paso 4")
           .col-md-12.mb-4.mb-md-0
@@ -584,13 +591,17 @@
         .row(titulo="Paso 6")
           .row.justify-content-center.align-items-center
             .col-10.col-md-10.col-lg-12.desktop
+              .titulo-sexto.color-acento-contenido.mb-5
+                p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Protocolos para acceder a la certificación</em> 
               figure
-                img(src='@/assets/curso/temas/tema1/img-22.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img-22.svg', alt='La imagen nos indica los aspectos centrales de la gestión integral de la salud y la seguridad en el trabajo, en donde se contemplan tres aspectos básicos: •	Riesgos laborales. •	Elementos de protección •	Dotación a los trabajadores de la granja pecuaria')
 
           .row.justify-content-center.align-items-center
             .col-10.col-md-10.col-lg-12.movil
+              .titulo-sexto.color-acento-contenido.mb-5
+                p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Protocolos para acceder a la certificación</em> 
               figure.mb-4
-                img(src='@/assets/curso/temas/tema1/img-22.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img-22.svg', alt='La imagen nos indica los aspectos centrales de la gestión integral de la salud y la seguridad en el trabajo, en donde se contemplan tres aspectos básicos: •	Riesgos laborales. •	Elementos de protección •	Dotación a los trabajadores de la granja pecuaria')
               .row
                 .col-lg-6
                   a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")

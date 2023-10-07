@@ -29,55 +29,17 @@
     p.mb-5 Estos hacen referencia a los medios físicos o materiales de los que dispone la empresa pecuaria para el desarrollo de su actividad productiva. Estos se pueden dividir en tangibles, cuando se pueden encontrar en una forma física, o intangibles cuando están representados en tecnología o cualquier otro bien inmaterial. 
 
     .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Se presenta figura descriptiva de dos tipos de recursos presentes en la empresa pecuaria: Recursos técnicos Equipos. Maquinaria. Insumos. Herramientas. Pie de cría. Instalaciones. Terrenos. Edificios. Artículos de oficina. Recursos tecnológicos Equipos de cómputo. Equipos de comunicación. Programas computacionales. Aplicaciones. Sistemas. Redes informáticas. Sensores remotos.")
-      .titulo-sexto.color-acento-contenido
-        p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Tipos de recursos presentes en la empresa pecuaria </em> 
+      h4 Tipos de recursos presentes en la empresa pecuaria
 
-    .row(data-aos="fade-down-left") 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img-3.svg' alt='')
-          .tarjeta.color-primario
-            .p-4
-              h4 Recursos técnicos
-              p Equipos.
-                br
-                | Maquinaria.
-                br
-                | Insumos.
-                br
-                | Herramientas.
-                br
-                | Pie de cría.
-                br
-                | Instalaciones.
-                br
-                | Terrenos.
-                br
-                | Edificios.
-                br
-                | Artículos de oficina.
-
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img-4.svg' alt='')
-          .tarjeta.color-primario
-            .p-4
-              h4 Recursos tecnológicos
-              p Equipos de cómputo.
-                br
-                | Equipos de comunicación.
-                br
-                | Programas computacionales.
-                br
-                | Aplicaciones.
-                br
-                | Sistemas.
-                br
-                | Redes informáticas.
-                br
-                | Sensores remotos.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right", alt="")
+        figure
+          img(src='@/assets/curso/temas/tema4/img-23-1.svg', alt='Se presenta figura descriptiva de dos tipos de recursos presentes en la empresa pecuaria: Recursos técnicos Equipos. Maquinaria. Insumos. Herramientas. Pie de cría. Instalaciones. Terrenos. Edificios. Artículos de oficina. Recursos tecnológicos Equipos de cómputo. Equipos de comunicación. Programas computacionales. Aplicaciones. Sistemas. Redes informáticas. Sensores remotos.')  
+    
+    .row.mt-5
+      .col-10.col-md-10.col-lg-12.movil.mb-5(data-aos="fade-right", alt="")
+        figure
+          img(src='@/assets/curso/temas/tema4/img-23-2.svg', alt='Se presenta figura descriptiva de dos tipos de recursos presentes en la empresa pecuaria: Recursos técnicos Equipos. Maquinaria. Insumos. Herramientas. Pie de cría. Instalaciones. Terrenos. Edificios. Artículos de oficina. Recursos tecnológicos Equipos de cómputo. Equipos de comunicación. Programas computacionales. Aplicaciones. Sistemas. Redes informáticas. Sensores remotos.')
 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2. Recursos humanos
@@ -116,38 +78,19 @@
     p <strong>Recursos ambientales</strong>
     p.mb-5 Otro de los recursos necesarios para adelantar la actividad productiva de manera eficiente, es la identificación de los recursos ambientales, en términos de materiales aprovechables, pero también de servicios ecosistémicos. Para caracterizar la oferta de servicios ambientales, es necesario identificar las condiciones agroecológicas de la zona. 
 
-    .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Se presenta imagen con tres condiciones agroecológicas, y cada una de estas se describe: Condiciones climáticas Temperatura, humedad relativa, brillo solar, precipitación, vientos. El conocimiento de estas variables permite identificar a qué fenómenos climáticos se puede enfrentar la explotación pecuaria para poder actuar en consecuencia. Condiciones edáficas La edafología hace referencia al suelo. En este aspecto es clave identificar las propiedades físicas del suelo (infiltración, textura, porosidad) así como sus propiedades químicas (acidez, salinidad, conductividad eléctrica). Las condiciones del suelo se relacionan directamente con la disponibilidad de alimento en sistemas de pastoreo. Biodiversidad El conocimiento de la biodiversidad del entorno, permite identificar recursos aprovechables bien sea para la construcción de instalaciones o para la obtención de servicios ambientales como bosques protectores de fuentes hídricas.")
-      .titulo-sexto.color-acento-contenido
-        p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Condiciones agroecológicas</em> 
+    .col-10.col-md-10.col-lg-10.mb-4(data-aos="fade-right", alt="")
+      h4 Condiciones agroecológicas
 
-    .row.justify-content-center.align-items-center(data-aos="fade-down-left") 
-      .col-lg-10
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img-8.svg' alt='')
-          .tarjeta.tarjeta--azul1
-            .p-4
-              h4 Condiciones climáticas
-              p Temperatura, humedad relativa, brillo solar, precipitación, vientos. El conocimiento de estas variables permite identificar a qué fenómenos climáticos se puede enfrentar la explotación pecuaria para poder actuar en consecuencia.
-      
-      .col-lg-10
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img-9.svg' alt='')
-          .tarjeta.tarjeta--azul1
-            .p-4
-              h4 Condiciones edáficas
-              p La edafología hace referencia al suelo. En este aspecto es clave identificar las propiedades físicas del suelo (infiltración, textura, porosidad) así como sus propiedades químicas (acidez, salinidad, conductividad eléctrica). Las condiciones del suelo se relacionan directamente con la disponibilidad de alimento en sistemas de pastoreo. 
-      
-      .col-lg-10
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img-10.svg' alt='')
-          .tarjeta.tarjeta--azul1
-            .p-4
-              h4 Biodiversidad
-              p El conocimiento de la biodiversidad del entorno, permite identificar recursos aprovechables bien sea para la construcción de instalaciones o para la obtención de servicios ambientales como bosques protectores de fuentes hídricas.  
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right", alt="")
+        figure
+          img(src='@/assets/curso/temas/tema4/img-24-1.svg', alt='Se presenta imagen con tres condiciones agroecológicas, y cada una de estas se describe: Condiciones climáticas Temperatura, humedad relativa, brillo solar, precipitación, vientos. El conocimiento de estas variables permite identificar a qué fenómenos climáticos se puede enfrentar la explotación pecuaria para poder actuar en consecuencia. Condiciones edáficas La edafología hace referencia al suelo. En este aspecto es clave identificar las propiedades físicas del suelo (infiltración, textura, porosidad) así como sus propiedades químicas (acidez, salinidad, conductividad eléctrica). Las condiciones del suelo se relacionan directamente con la disponibilidad de alimento en sistemas de pastoreo. Biodiversidad El conocimiento de la biodiversidad del entorno, permite identificar recursos aprovechables bien sea para la construcción de instalaciones o para la obtención de servicios ambientales como bosques protectores de fuentes hídricas.')  
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right", alt="")
+        figure
+          img(src='@/assets/curso/temas/tema4/img-24-2.svg', alt='Se presenta imagen con tres condiciones agroecológicas, y cada una de estas se describe: Condiciones climáticas Temperatura, humedad relativa, brillo solar, precipitación, vientos. El conocimiento de estas variables permite identificar a qué fenómenos climáticos se puede enfrentar la explotación pecuaria para poder actuar en consecuencia. Condiciones edáficas La edafología hace referencia al suelo. En este aspecto es clave identificar las propiedades físicas del suelo (infiltración, textura, porosidad) así como sus propiedades químicas (acidez, salinidad, conductividad eléctrica). Las condiciones del suelo se relacionan directamente con la disponibilidad de alimento en sistemas de pastoreo. Biodiversidad El conocimiento de la biodiversidad del entorno, permite identificar recursos aprovechables bien sea para la construcción de instalaciones o para la obtención de servicios ambientales como bosques protectores de fuentes hídricas.')  
+   
     p.mb-5 De acuerdo con sus características, los inventarios en una explotación pecuaria pueden clasificarse de la siguiente manera:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -176,10 +119,9 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 4.] <em>Inventarios requeridos</em>
+          p.titulo.pb-0.mb-0 #[b Tabla 18.] <em>Inventarios requeridos</em>
         .tabla-b.color-acento-contenido.mb-5
           table
-            caption Inventario de materias primas e insumos
             thead
               tr
                 th(style="background-color:#E0E5EC").text-center Uso
@@ -200,10 +142,11 @@
                 td 30
                 td 90.000
                 td 2.700.000
-
+        
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 19.] <em>Inventario de animales</em>
         .tabla-b.color-acento-contenido.mb-5
           table
-            caption Inventario de animales  
             thead
               tr
                 th(style="background-color:#E0E5EC").text-center Código animal
@@ -229,10 +172,11 @@
                 td 1
                 td 87
                 td Sí
-
+        
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 20.] <em>Inventario de cobertura del suelo</em>
         .tabla-b.color-acento-contenido.mb-5
           table
-            caption Inventario de cobertura del suelo 
             thead
               tr
                 th(style="background-color:#E0E5EC").text-center Número de lote
@@ -254,9 +198,10 @@
                 td x 
                 td
         
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 21.] <em>Inventario herramientas y equipos</em>
         .tabla-b.color-acento-contenido.mb-5
           table
-            caption Inventario herramientas y equipos
             thead
               tr
                 th(style="background-color:#E0E5EC").text-center Descripción
@@ -278,9 +223,10 @@
                 td 20.000
                 td 200.000
         
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 22.] <em>Inventario de instalaciones</em>
         .tabla-b.color-acento-contenido.mb-5
           table
-            caption Inventario de instalaciones
             thead
               tr
                 th(style="background-color:#E0E5EC").text-center Tipo de instalación
@@ -578,12 +524,12 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
         figure
-          img(src='@/assets/curso/temas/tema4/img-22-1.svg', alt='')  
+          img(src='@/assets/curso/temas/tema4/img-22-1.svg', alt='La imagen nos indica que el manejo de contingencias se debe realizar en 4 fases, estas son: •	Prevención y mitigación, responde a mantener protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Preparación, en donde se identifican los recursos necesarios para a<tender la contingencia rápida y oportunamente, involucra el plan de contingencia. •	Prevención y mitigación, corresponde a las acciones que previenen la contingencia, como los protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Recuperación, correspondiente a la etapa de superación de la contingencia, es un periodo de restauración de las áreas afectadas.')  
     
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
         figure
-          img(src='@/assets/curso/temas/tema4/img-22-2.svg', alt='')
+          img(src='@/assets/curso/temas/tema4/img-22-2.svg', alt='La imagen nos indica que el manejo de contingencias se debe realizar en 4 fases, estas son: •	Prevención y mitigación, responde a mantener protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Preparación, en donde se identifican los recursos necesarios para a<tender la contingencia rápida y oportunamente, involucra el plan de contingencia. •	Prevención y mitigación, corresponde a las acciones que previenen la contingencia, como los protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Recuperación, correspondiente a la etapa de superación de la contingencia, es un periodo de restauración de las áreas afectadas.')
 
 
 

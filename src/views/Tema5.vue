@@ -233,13 +233,13 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
         figure
-          img(src='@/assets/curso/temas/tema5/img-17-1.svg', alt='')
+          img(src='@/assets/curso/temas/tema5/img-17-1.svg', alt='La imagen nos muestra que los residuos sólidos se clasifican en: residuos reciclables, no reciclables, orgánicos y especiales, estos últimos corresponde a los empaques de productos agroquímicos, residuos de medicamentos, restos anatomo patológicos, empaques de sustancias corrosivas, etc.')
           figcaption Nota. Elaboración propia con base en Ministerio de Comercio, Industria y Turismo    
     
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
         figure
-          img(src='@/assets/curso/temas/tema5/img-17-2.svg', alt='')
+          img(src='@/assets/curso/temas/tema5/img-17-2.svg', alt='La imagen nos muestra que los residuos sólidos se clasifican en: residuos reciclables, no reciclables, orgánicos y especiales, estos últimos corresponde a los empaques de productos agroquímicos, residuos de medicamentos, restos anatomo patológicos, empaques de sustancias corrosivas, etc.')
 
     .row.mb-4
       .col-lg-3

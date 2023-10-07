@@ -269,7 +269,7 @@ export default {
     {
       termino: 'Inocuidad',
       significado:
-        'Condiciones y medidas necesarias que garantizan que un alimento no va a afectar la salud de las personas',
+        'Condiciones y medidas necesarias que garantizan que un alimento no va a afectar la salud de las personas.',
     },
     {
       termino: 'Trazabilidad',

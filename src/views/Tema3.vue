@@ -260,7 +260,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 7 Áreas mínimas ganado bovino - bufalino En la tabla se observa para animal adulto el área de descanso, área de alimentación y ancho de plaza comedero.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 7.] <em>Áreas mínimas ganado bovino - bufalino</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 8.] <em>Áreas mínimas ganado bovino - bufalino</em>
             .tabla-a.color-acento-contenido
               table
                 caption Fuente: https://www.engormix.com/ganaderia-leche/articulos/tecnificacion-fincas-ganaderas-practicas-t44659.htm
@@ -282,7 +282,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 8 Área mínimas Equinos. En la tabla se observa para animal adulto el área de pesebrera, igualmente de plaza.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 8.] <em>Áreas mínimas Equinos</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 9.] <em>Áreas mínimas Equinos</em>
             .tabla-a.color-acento-contenido
               table
                 caption Fuente: Acero P. adaptado de Ferrer, 1997
@@ -306,7 +306,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 9 Áreas mínimas para porcinos. En la tabla se observa el área porqueriza por animal, lechones, adultos jóvenes, adultos, jaula para cerdas de cría.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 9.] <em>Áreas mínimas para porcinos</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 10.] <em>Áreas mínimas para porcinos</em>
             .tabla-a.color-acento-contenido
               table
                 thead
@@ -329,7 +329,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 10 Áreas mínimas para caprinos. En la tabla se observa el área cubierta y área descubierta, para recién nacidos (0 a 3 meses), destetos (4 a 8 meses), adultos, gestantes, machos.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 10.] <em>Áreas mínimas para caprinos</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 11.] <em>Áreas mínimas para caprinos</em>
             .tabla-a.color-acento-contenido
               table
                 thead
@@ -363,10 +363,10 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 11 Áreas mínimas para ovinos. En la tabla se observa el área cubierta y área descubierta, para ovejas, crías (3 a 4 animales), corderas (2 a 3 animales), machos.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 11.] <em>Áreas mínimas para ovinos</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 12.] <em>Áreas mínimas para ovinos</em>
             .tabla-a.color-acento-contenido
               table
-                caption Tabla 11  Áreas mínimas para ovinos
+                caption Tabla 12  Áreas mínimas para ovinos
                 thead
                   tr
                     th Categoría
@@ -389,7 +389,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 12 Áreas mínimas para espécies menores. En la tabla se observa el área para animales por metro cuadrado galpón por jaula, animales por metro cuadrado pastoreo, para gallinas, pollos y codornices, conejos y cuyes.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 12.] <em>Áreas mínimas para espécies menores</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 13.] <em>Áreas mínimas para espécies menores</em>
             .tabla-a.color-acento-contenido
               table
                 thead
@@ -454,14 +454,39 @@
                       p.mb-0 10 hembras /1 macho
                       p.mb-0 10 machos
 
-      .row(numero="7" titulo="Áreas mínimas para Peces")
+      .row(numero="7" titulo="Áreas mínimas para peces")
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 13 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 13.] <em>Áreas mínimas para Peces</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 14.] <em>Áreas mínimas para peces</em>
             .tabla-a.color-acento-contenido
               table
-                caption Tabla 13  Áreas mínimas para peces Fuente: https://www.engormix.com/ganaderia-leche/articulos/tecnificacion-fincas-ganaderas-practicas-t44659.htm
+                caption Fuente: https://www.engormix.com/ganaderia-leche/articulos/tecnificacion-fincas-ganaderas-practicas-t44659.html
+                thead
+                  tr
+                    th Especie
+                    th Densidad final. 
+                      | Aproximado de peces por m²
+                tbody
+                  tr
+                    td(style="background-color:#FFF") Cachama blanca
+                    td(style="background-color:#FFF") 4
+                  tr  
+                    td(style="background-color:#FFF") Mojarra roja
+                    td(style="background-color:#FFF") 15
+                  tr  
+                    td(style="background-color:#FFF") Tilapia
+                    td(style="background-color:#FFF") 4 - 15
+        p La densidad de animales por m² depende en buena medida del caudal de agua del estanque. Para caudales de entre 1 y 3 litros por segundo las densidades pueden ser de 4 peces por m². En caudales de 40 a 60 litros por segundo, es posible tener densidades de hasta 20 peces por m²     
+
+      .row(numero="8" titulo="Períodos de descanso")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 13 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
+            .titulo-sexto.color-acento-contenido
+              p.titulo.pb-0.mb-0 #[b Tabla 15.] <em>Períodos de descanso</em>
+            .tabla-a.color-acento-contenido
+              table
+                caption Fuente: https://www.engormix.com/ganaderia-leche/articulos/tecnificacion-fincas-ganaderas-practicas-t44659.html
                 thead
                   tr
                     th Especie
@@ -552,7 +577,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 2.] <em>Principales unidades empleadas en actividades pecuarias</em>
+          p.titulo.pb-0.mb-0 #[b Tabla 16.] <em>Principales unidades empleadas en actividades pecuarias</em>
         .tabla-a.color-acento-contenido
           table
             thead
@@ -664,67 +689,18 @@
         i.fas.fa-atom
         | Dependiendo del sistema, es ideal disponer de una zona de pastoreo. 
 
-    .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="")
-      .titulo-sexto.color-acento-contenido
-        p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Principales instalaciones de acuerdo con la especie animal.</em> 
+    .col-10.col-md-10.col-lg-10.mb-4(data-aos="fade-right", alt="")
+      h4 Principales instalaciones de acuerdo con la especie animal
 
-    .row.mb-5.tarjeta.color-secundario1(data-aos="fade-right", alt="")
-      .col-lg-6.mt-4
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img-6.svg' alt='Se presenta figura descriptiva relacionada con las instalaciones según los tipos de animales: Bovinos - bufalinos: cercas, corrales, establos, salas de ordeño, comederos, saladeros, bebederos. Equinos: cercas, corrales, establos, pesebreras, comederos, bebederos. Aves: corrales, galpones, camas de postura, incubadoras, comederos, bebederos. Porcinos: porquerizas, parideras, corrales, comederos, bebederos. Ovinos - caprinos: apriscos, plataformas de ordeño, comederos, bebederos. Especies menores: corrales, jaulas individuales, jaulas grupales, comederos, bebederos. Peces: estanques, jaulas flotantes.')
-          .tarjeta
-            .p-4
-              h4 Bovinos - bufalinos: cercas, corrales, establos, salas de ordeño, comederos, saladeros, bebederos. 
-
-      .col-lg-6.mt-4
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img-7.svg' alt='')
-          .tarjeta
-            .p-4
-              h4 Aves: corrales, galpones, camas de postura, incubadoras, comederos, bebederos. 
-      
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img-8.svg' alt='')
-          .tarjeta
-            .p-4
-              h4 Equinos: cercas, corrales, establos, pesebreras, comederos, bebederos. 
-
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img-9.svg' alt='')
-          .tarjeta
-            .p-4
-              h4 Porcinos: porquerizas, parideras, corrales, comederos, bebederos. 
-
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img-10.svg' alt='')
-          .tarjeta
-            .p-4
-              h4 Ovinos - caprinos: apriscos, plataformas de ordeño, comederos, bebederos.
-
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img-11.svg' alt='')
-          .tarjeta
-            .p-4
-              h4 Especies menores: corrales, jaulas individuales,  jaulas grupales, comederos, bebederos.
-      
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img-12.svg' alt='')
-          .tarjeta
-            .p-4
-              h4 Peces: estanques, jaulas flotantes.
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right", alt="")
+        figure
+          img(src='@/assets/curso/temas/tema3/img-32-1.svg', alt='Se presenta figura descriptiva relacionada con las instalaciones según los tipos de animales: Bovinos - bufalinos: cercas, corrales, establos, salas de ordeño, comederos, saladeros, bebederos.  Equinos: cercas, corrales, establos, pesebreras, comederos, bebederos. Aves: corrales, galpones, camas de postura, incubadoras, comederos, bebederos. Porcinos: porquerizas, parideras, corrales, comederos, bebederos. Ovinos - caprinos: apriscos, plataformas de ordeño, comederos, bebederos. Especies menores: corrales, jaulas individuales, jaulas grupales, comederos, bebederos. Peces: estanques, jaulas flotantes.')  
+    
+    .row.mt-5
+      .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
+        figure
+          img(src='@/assets/curso/temas/tema3/img-32-2.svg', alt='Se presenta figura descriptiva relacionada con las instalaciones según los tipos de animales: Bovinos - bufalinos: cercas, corrales, establos, salas de ordeño, comederos, saladeros, bebederos.  Equinos: cercas, corrales, establos, pesebreras, comederos, bebederos. Aves: corrales, galpones, camas de postura, incubadoras, comederos, bebederos. Porcinos: porquerizas, parideras, corrales, comederos, bebederos. Ovinos - caprinos: apriscos, plataformas de ordeño, comederos, bebederos. Especies menores: corrales, jaulas individuales, jaulas grupales, comederos, bebederos. Peces: estanques, jaulas flotantes.') 
 
     p.mb-4 Otras instalaciones recomendadas para la cría de especies pecuarias se describen a continuación, las cuales deben ser conforme a las características de cada especie y los recursos disponibles.
 
@@ -739,16 +715,16 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Ejemplos de bebederos y comederos</em>
+          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Ejemplos de bebederos y comederos</em>
         figure
-          img(src='@/assets/curso/temas/tema3/img-14-1.svg', alt='Se presentan tres imágenes cada una correspondiente a: Bebedero automático para cerdos Bebedero automático para aves Comedero automático para aves')  
+          img(src='@/assets/curso/temas/tema3/img-14-1.png', alt='Se presentan tres imágenes cada una correspondiente a: Bebedero automático para cerdos Bebedero automático para aves Comedero automático para aves')  
     
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Ejemplos de bebederos y comederos</em>
+          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Ejemplos de bebederos y comederos</em>
         figure
-          img(src='@/assets/curso/temas/tema3/img-14-2.svg', alt='Se presentan tres imágenes cada una correspondiente a: Bebedero automático para cerdos Bebedero automático para aves Comedero automático para aves')
+          img(src='@/assets/curso/temas/tema3/img-14-2.png', alt='Se presentan tres imágenes cada una correspondiente a: Bebedero automático para cerdos Bebedero automático para aves Comedero automático para aves')
 
     p.mb-5 En lo relacionado con la construcción de comederos y saladeros se recomienda lo siguiente:
 
@@ -789,10 +765,9 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 3.] <em>Principales materiales de construcción empleados en instalaciones pecuarias</em>
+          p.titulo.pb-0.mb-0 #[b Tabla 17.] <em>Principales materiales de construcción empleados en instalaciones pecuarias</em>
         .tabla-a.color-acento-contenido
           table
-            caption Tabla 3  Principales materiales de construcción empleados en instalaciones pecuarias
             thead
               tr
                 th Material
@@ -929,8 +904,8 @@
       .row(numero="7" titulo="Equipos para procesamiento de desechos")
         .col-md-6.mb-4.mb-md-0
           p.text-small Una explotación pecuaria eficiente requiere de un excelente manejo de los desechos que se generan en la actividad productiva. 
-          p.text-small En sistemas intensivos, se utilizan las desbrozadoras, las cuales tiene la capacidad de convertir los residuos vegetales en pequeñas partículas que pueden ser procesadas posteriormente como compost. 
-          p.text-small Igualmente, estos equipos se emplean para triturar y homogenizar los desechos después de un proceso previo como la elaboración de bokashi o la obtención de humus de lombriz. 
+          p.text-small En sistemas intensivos, se utilizan las desbrozadoras, las cuales tiene la capacidad de convertir los residuos vegetales en pequeñas partículas que pueden ser procesadas posteriormente como <em>compost.</em> 
+          p.text-small Igualmente, estos equipos se emplean para triturar y homogenizar los desechos después de un proceso previo como la elaboración de <em>bokashi</em> o la obtención de humus de lombriz. 
 
         .col-md-4
           figure

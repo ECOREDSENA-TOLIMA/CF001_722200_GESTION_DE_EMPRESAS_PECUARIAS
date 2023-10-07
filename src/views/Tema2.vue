@@ -20,9 +20,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 6.] <em>Aspectos normativos</em>
         .tabla-a.color-acento-botones 
           table
-            caption Aspectos Normativos
             thead
             tbody
               tr
@@ -135,7 +136,7 @@
             p <strong>Higiénicos y biológicos:</strong> patógenos, enfermedades trasmisibles. 
             p <strong>Químicos:</strong> quemaduras, irritación, intoxicación, dermatitis. 
             p <strong>Mecánicos:</strong> fracturas, cortes, aplastamientos. Causados por manipulación de equipos, herramientas o por ataque de animales. 
-            p <strong>Térmicos:</strong> exposición a altas o bajas temperaturas 
+            p <strong>Térmicos:</strong> exposición a altas o bajas temperaturas. 
             p <strong>Eléctricos:</strong> contacto con cercas eléctricas - equipos eléctricos.
             p <strong>Por acciones repetitivas:</strong> ordeño - recolección de huevos - vacunación de animales.
 
@@ -151,7 +152,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 1.] <em>Marco normativo aspectos ambientales</em>
+          p.titulo.pb-0.mb-0 #[b Tabla 7.] <em>Marco normativo aspectos ambientales</em>
         .tabla-a.color-acento-contenido
           table
             caption Referencia Tabla - Norma APA
