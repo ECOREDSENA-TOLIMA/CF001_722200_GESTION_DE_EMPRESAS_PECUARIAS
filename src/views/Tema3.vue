@@ -258,7 +258,7 @@
     LineaTiempoD.color-acento-contenido.mb-5
       .row(numero="1" titulo="Áreas mínimas ganado bovino - bufalino")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 7 Áreas mínimas ganado bovino - bufalino En la tabla se observa para animal adulto el área de descanso, área de alimentación y ancho de plaza comedero.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 8 Áreas mínimas ganado bovino - bufalino En la tabla se observa para animal adulto el área de descanso, área de alimentación y ancho de plaza comedero.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 8.] <em>Áreas mínimas ganado bovino - bufalino</em>
             .tabla-a.color-acento-contenido
@@ -280,7 +280,7 @@
 
       .row(numero="2" titulo="Áreas mínimas Equinos")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 8 Área mínimas Equinos. En la tabla se observa para animal adulto el área de pesebrera, igualmente de plaza.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 9 Área mínimas Equinos. En la tabla se observa para animal adulto el área de pesebrera, igualmente de plaza.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 9.] <em>Áreas mínimas Equinos</em>
             .tabla-a.color-acento-contenido
@@ -304,7 +304,7 @@
 
       .row(numero="3" titulo="Áreas mínimas para porcinos")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 9 Áreas mínimas para porcinos. En la tabla se observa el área porqueriza por animal, lechones, adultos jóvenes, adultos, jaula para cerdas de cría.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 10 Áreas mínimas para porcinos. En la tabla se observa el área porqueriza por animal, lechones, adultos jóvenes, adultos, jaula para cerdas de cría.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 10.] <em>Áreas mínimas para porcinos</em>
             .tabla-a.color-acento-contenido
@@ -327,7 +327,7 @@
 
       .row(numero="4" titulo="Áreas mínimas para Caprinos")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 10 Áreas mínimas para caprinos. En la tabla se observa el área cubierta y área descubierta, para recién nacidos (0 a 3 meses), destetos (4 a 8 meses), adultos, gestantes, machos.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 11 Áreas mínimas para caprinos. En la tabla se observa el área cubierta y área descubierta, para recién nacidos (0 a 3 meses), destetos (4 a 8 meses), adultos, gestantes, machos.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 11.] <em>Áreas mínimas para caprinos</em>
             .tabla-a.color-acento-contenido
@@ -361,7 +361,7 @@
 
       .row(numero="5" titulo="Áreas mínimas para Ovinos")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 11 Áreas mínimas para ovinos. En la tabla se observa el área cubierta y área descubierta, para ovejas, crías (3 a 4 animales), corderas (2 a 3 animales), machos.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 12 Áreas mínimas para ovinos. En la tabla se observa el área cubierta y área descubierta, para ovejas, crías (3 a 4 animales), corderas (2 a 3 animales), machos.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 12.] <em>Áreas mínimas para ovinos</em>
             .tabla-a.color-acento-contenido
@@ -387,7 +387,7 @@
                
       .row(numero="6" titulo="Áreas mínimas para Especies menores")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 12 Áreas mínimas para espécies menores. En la tabla se observa el área para animales por metro cuadrado galpón por jaula, animales por metro cuadrado pastoreo, para gallinas, pollos y codornices, conejos y cuyes.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 13 Áreas mínimas para espécies menores. En la tabla se observa el área para animales por metro cuadrado galpón por jaula, animales por metro cuadrado pastoreo, para gallinas, pollos y codornices, conejos y cuyes.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 13.] <em>Áreas mínimas para espécies menores</em>
             .tabla-a.color-acento-contenido
@@ -456,7 +456,7 @@
 
       .row(numero="7" titulo="Áreas mínimas para peces")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 13 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 14 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 14.] <em>Áreas mínimas para peces</em>
             .tabla-a.color-acento-contenido
@@ -481,7 +481,7 @@
 
       .row(numero="8" titulo="Períodos de descanso")
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 13 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
+          .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 15 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
             .titulo-sexto.color-acento-contenido
               p.titulo.pb-0.mb-0 #[b Tabla 15.] <em>Períodos de descanso</em>
             .tabla-a.color-acento-contenido
@@ -533,14 +533,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Distribución de un corral para manejo de ganado bovino</em>
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Distribución de un corral para manejo de ganado bovino</em>
         figure
           img(src='@/assets/curso/temas/tema3/img-2-1.svg', alt='Imagen que indica el lugar en donde debe distribuirse los lugares dentro del corral bovino, en cada una de las 4 esquinas se encuentra: Comedero Comedero Acceso Bebedero')  
     
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Distribución de un corral para manejo de ganado bovino</em>
+          p.titulo.pb-0.mb-0 #[b Figura 3.] <em>Distribución de un corral para manejo de ganado bovino</em>
         figure
           img(src='@/assets/curso/temas/tema3/img-2-2.svg', alt='Imagen que indica el lugar en donde debe distribuirse los lugares dentro del corral bovino, en cada una de las 4 esquinas se encuentra: Comedero Comedero Acceso Bebedero') 
 

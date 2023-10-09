@@ -521,17 +521,31 @@
 
     p.mb-5 Si bien en la explotación pecuaria se cuenta con un cronograma de actividades que indica los tiempos en los cuales se desarrollarán las actividades, es importante hacer una buena gestión de contingencias. Una contingencia es una situación fuera de lo común, que puede presentarse o no, con la capacidad de alterar el normal funcionamiento de la unidad pecuaria. Las contingencias no son evitables, pero sus impactos se pueden minimizar.   
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
+    ImagenInfografica.color-acento-botones.mb-5.desktop
+      template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema4/img-22-1.svg', alt='La imagen nos indica que el manejo de contingencias se debe realizar en 4 fases, estas son: •	Prevención y mitigación, responde a mantener protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Preparación, en donde se identifican los recursos necesarios para a<tender la contingencia rápida y oportunamente, involucra el plan de contingencia. •	Prevención y mitigación, corresponde a las acciones que previenen la contingencia, como los protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Recuperación, correspondiente a la etapa de superación de la contingencia, es un periodo de restauración de las áreas afectadas.')  
-    
+          img(src='@/assets/curso/temas/tema4/img-22-1.svg', alt='Texto que describa la imagen')
+
+      .tarjeta.color-secundario.p-3(x="16.5%" y="30%" numero="+")
+        .h5.mb-2 Prevención y mitigación: 
+        p se basa en acciones para evitar o prevenir que se presente determinada situación, como mantener protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. 
+
+      .tarjeta.color-secundario.p-3(x="83.5%" y="30%" numero="+")
+        .h5.mb-2 Preparación: 
+        p es la identificación de los recursos necesarios para la atención de la contingencia de una forma rápida y eficaz. Parte de ello es la elaboración de un plan de contingencia con sus respectivos protocolos.  
+
+      .tarjeta.color-secundario.p-3(x="24.5%" y="79%" numero="+")
+        .h5.mb-2 Respuesta: 
+        p en esta etapa se lleva a cabo la implementación del plan de contingencia de acuerdo con el protocolo diseñado. 
+      
+      .tarjeta.color-secundario.p-3(x="76.5%" y="79%" numero="+")
+        .h5.mb-2 Recuperación: 
+        p es la etapa que se da después de superar la contingencia y corresponde con un periodo de restauración de las áreas afectadas. Igualmente, en este momento, se hace una evaluación del manejo de la contingencia con el fin de elaborar los respectivos planes de mejora. Producción por favor hacer un acordeón con este contenido
+
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
         figure
           img(src='@/assets/curso/temas/tema4/img-22-2.svg', alt='La imagen nos indica que el manejo de contingencias se debe realizar en 4 fases, estas son: •	Prevención y mitigación, responde a mantener protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Preparación, en donde se identifican los recursos necesarios para a<tender la contingencia rápida y oportunamente, involucra el plan de contingencia. •	Prevención y mitigación, corresponde a las acciones que previenen la contingencia, como los protocolos de bioseguridad, identificar e inventariar las amenazas, almacenar correctamente los productos tóxicos, entre otras. •	Recuperación, correspondiente a la etapa de superación de la contingencia, es un periodo de restauración de las áreas afectadas.')
-
-
 
 
 

@@ -22,7 +22,7 @@
       .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 6.] <em>Aspectos normativos</em>
-        .tabla-a.color-acento-botones 
+        .tabla-a.color-acento-botones(alt="Tabla 6 Aspectos normativos En la tabla se observa el código sustantivo de trabajo, decretos, resoluciones, leyes, referentes a producción pecuaria.") 
           table
             thead
             tbody
@@ -153,7 +153,7 @@
       .col-10.col-md-10.col-lg-12(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 7.] <em>Marco normativo aspectos ambientales</em>
-        .tabla-a.color-acento-contenido
+        .tabla-a.color-acento-contenido(alt="Tabla 7 Marco normativo aspectos ambientales En la tabla se observan las resoluciones, leyes, decretos sobre la normativa en aspectos ambientales.")
           table
             caption Referencia Tabla - Norma APA
             thead

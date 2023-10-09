@@ -256,7 +256,7 @@ export default {
       referencia:
         'Organización Panamericana de la Salud. (2015). Buenas Prácticas Agropecuarias (BPA) y de Manufactura (BPM).',
       tipo: 'Guía',
-      descarga:
+      link:
         'https://www.paho.org/es/documentos/buenas-practicas-agropecuarias-bpa-manufactura-bpm',
     },
   ],

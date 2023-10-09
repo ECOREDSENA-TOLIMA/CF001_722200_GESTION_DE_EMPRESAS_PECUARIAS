@@ -299,12 +299,12 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos bovinos bufalinos ovinos y caprinos")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros bovinos", alt='')
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 1.] <em>Parámetros productivos bovinos, bufalinos, ovinos y caprinos</em> 
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-12(alt="")
+          .col-10.col-md-10.col-lg-12(alt="Tabla 1 Parámetros productivos bovinos, bufalinos, ovinos y caprinos En la tabla se observan los parámetros productivos para bovinos, bufalinos, ovinos y caprinos.")
             .tabla-b.color-secundario
               table(style="min-width:auto")
                 thead
@@ -344,12 +344,12 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para aves")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros aves")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 2.] <em>Parámetros productivos para aves</em> 
         
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-12(alt="")
+          .col-10.col-md-10.col-lg-12(alt="Tabla 2 Parámetros productivos para aves En la tabla se observan los parámetros productivos para aves.")
             .tabla-b.color-secundario
               table(style="min-width:auto")
                 thead
@@ -389,12 +389,12 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para porcinos")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros porcinos")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 3.] <em>Parámetros productivos para porcinos</em> 
         
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-12(alt="")
+          .col-10.col-md-10.col-lg-12(alt="Tabla 3 Parámetros productivos para porcinos En la tabla se observan los parámetros productivos para porcinos.")
             .tabla-b.color-secundario
               table(style="min-width:auto")
                 thead
@@ -432,12 +432,12 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para especies menores")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros especies menores")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 4.] <em>Parámetros productivos para especies menores</em> 
         
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-12(alt="")
+          .col-10.col-md-10.col-lg-12(alt="Tabla 4 Parámetros productivos para especies menores En la tabla se observan los parámetros productivos para especies menores")
             .tabla-b.color-secundario
               table(style="min-width:auto")
                 thead
@@ -475,12 +475,12 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros productivos para peces")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Parámetros peces")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 5.] <em>Parámetros productivos para peces</em> 
         
         .row.justify-content-center.align-items-center.mb-5
-          .col-10.col-md-10.col-lg-12(alt="")
+          .col-10.col-md-10.col-lg-12(alt="Tabla 5 Parámetros productivos para peces En la tabla se observan los parámetros productivos para peces")
             .tabla-b.color-secundario
               table(style="min-width:auto")
                 thead
