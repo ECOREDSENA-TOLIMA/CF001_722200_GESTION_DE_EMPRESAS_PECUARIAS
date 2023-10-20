@@ -90,38 +90,13 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Planificación de la unidad productiva pecuari',
+        titulo: 'Planificación de la unidad productiva pecuaria',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
             titulo: 'Instalaciones pecuarias',
             hash: 't_3_1',
-          },
-          {
-            numero: '3.1.1',
-            titulo: 'Diseños y características',
-            hash: 't_3_1_1',
-          },
-          {
-            numero: '3.1.2',
-            titulo: 'Áreas mínimas',
-            hash: 't_3_1_2',
-          },
-          {
-            numero: '3.1.3',
-            titulo: 'Dimensiones',
-            hash: 't_3_1_3',
-          },
-          {
-            numero: '3.1.4',
-            titulo: 'Instalaciones',
-            hash: 't_3_1_4',
-          },
-          {
-            numero: '3.1.5',
-            titulo: 'Elección de materiales de construcción',
-            hash: 't_3_1_5',
           },
           {
             numero: '3.2',
@@ -183,16 +158,6 @@ export default {
             numero: '5.4',
             titulo: 'Manejo seguro de residuos',
             hash: 't_5_4',
-          },
-          {
-            numero: '5.4.1',
-            titulo: 'Clasificación de residuos',
-            hash: 't_5_4_1',
-          },
-          {
-            numero: '5.4.2',
-            titulo: 'Disposición final',
-            hash: 't_5_4_2',
           },
         ],
       },
@@ -342,12 +307,12 @@ export default {
         {
           nombre: 'Humberto Arias Díaz',
           cargo: 'Diseñador Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Maria Inés Machado López',
           cargo: 'Asesor Metodológico',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -357,32 +322,32 @@ export default {
         {
           nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador web',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Storyborad e Ilustración',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Nelsón Iván Vera Briceño',
           cargo: 'Producción Audiovisual',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oleg Livtin',
           cargo: 'Animador',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Actividad Didáctica',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -392,12 +357,12 @@ export default {
         {
           nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

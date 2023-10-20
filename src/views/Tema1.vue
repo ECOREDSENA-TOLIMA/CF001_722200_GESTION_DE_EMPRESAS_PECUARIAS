@@ -20,7 +20,7 @@
       h2 1.2.	Características
 
     .cajon-b.color-acento-contenido.p-3.mb-5(data-aos="fade-right")
-      p.mb-0 En el caso de la producción pecuaria son múltiples los factores que se deben analizar antes de cualquier emprendimiento, por lo que es necesario tomarse el tiempo suficiente para identificar el tipo de explotación, determinar los recursos necesarios y disponibles, conocer el tipo de instalaciones que se requieren y, sobre todo, hacer una programación detallada de las actividades que se llevarán a cabo al interior de la unidad pecuaria, con lo cual será posible darle un orden lógico al sistema, conseguir la productividad esperada y contribuir a la sostenibilidad del proyecto productivo.
+      p.mb-0 Para conseguir unidades pecuarias organizadas conforme a los parámetros técnicos es necesario implementar procesos acordes a la normatividad aplicable, definiendo los recursos disponibles y conociendo los procesos que conlleva la implementación de sistemas en diversos entornos rurales para controlar el funcionamiento de la unidad pecuaria, a continuación, se verán sus características.
 
     .row.justify-content-center.mb-5
       .col-sm-3.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
@@ -144,103 +144,104 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4. Principales explotaciones pecuarias
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-1.svg' alt='AvatarTop')
-        h3.text-center Ganado Bovino
-        p.text-center Es tal vez una de las explotaciones pecuarias más difundida en el mundo y se dedica principalmente a la producción de carne y leche. Se efectúa en sistemas intensivos, semi-intensivos y extensivos en múltiples condiciones agroecológicas.
+    .row.justify-content-center.mt-5 
+      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-1.svg' alt='AvatarTop')
+          h2.text-center Ganado Bovino
+          p.text-center Es tal vez una de las explotaciones pecuarias más difundida en el mundo y se dedica principalmente a la producción de carne y leche. Se efectúa en sistemas intensivos, semi-intensivos y extensivos en múltiples condiciones agroecológicas.
 
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-2.svg' alt='AvatarTop')
-        h3.text-center Porcinos
-        p.text-center La producción porcícola se desarrolla en múltiples climas y altitudes, en sistemas que pueden ser extensivos e intensivos.
-          br
-          br
-          | Estas explotaciones se orientan principalmente a la producción de carne, con destino al consumo directo y a la industria. Igualmente, es común la producción de lechones.
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-2.svg' alt='AvatarTop')
+          h2.text-center Porcinos
+          p.text-center La producción porcícola se desarrolla en múltiples climas y altitudes, en sistemas que pueden ser extensivos e intensivos.
+            br
+            br
+            | Estas explotaciones se orientan principalmente a la producción de carne, con destino al consumo directo y a la industria. Igualmente, es común la producción de lechones.
 
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-3.svg' alt='AvatarTop')
-        h3.text-center Avícola
-        p.text-center Esta es una de las industrias más grandes que existen en el mundo, pues es una de las proteínas de origen animal más consumidas. En la industria avícola destacan la producción de huevo, pollo de engorde y pollo de levante.
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-3.svg' alt='AvatarTop')
+          h2.text-center Avícola
+          p.text-center Esta es una de las industrias más grandes que existen en el mundo, pues es una de las proteínas de origen animal más consumidas. En la industria avícola destacan la producción de huevo, pollo de engorde y pollo de levante.
 
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-4.svg' alt='AvatarTop')
-        h3.text-center Búfalos
-        p.text-center La producción de carne y leche de búfalo se desarrolla, principalmente, en zonas de trópico bajo, donde se dan condiciones de alta temperatura. Son una fuente importante de proteína. 
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-4.svg' alt='AvatarTop')
+          h2.text-center Búfalos
+          p.text-center La producción de carne y leche de búfalo se desarrolla, principalmente, en zonas de trópico bajo, donde se dan condiciones de alta temperatura. Son una fuente importante de proteína. 
+          
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-5.svg' alt='AvatarTop')
+          h2.text-center Equinos
+          p.text-center A este grupo pertenecen, principalmente, caballos, asnos y mulares. Estos animales se utilizan a menudo como apoyo en las labores del campo, en el deporte, las exposiciones, la producción de genética, la recreación y la producción de carne. 
+
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-6.svg' alt='AvatarTop')
+          h2.text-center Ovinos
+          p.text-center Es uno de los sistemas de ganadería más antiguos y conocidos del mundo. Estos animales, por lo general se destinan para la obtención de carne, especialmente los camuros, y lana, como en el caso de las ovejas. Estos animales poseen un amplio rango de adaptación climática.
+
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-7.svg' alt='AvatarTop')
+          h2.text-center Caprinos
+          p.text-center Junto con los ovinos, los caprinos también pertenecen al grupo de los pequeños rumiantes y son una de las explotaciones pecuarias más populares debido a su gran capacidad adaptativa. En este grupo se destaca la producción de cabras doble propósito. 
         
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-5.svg' alt='AvatarTop')
-        h3.text-center Equinos
-        p.text-center A este grupo pertenecen, principalmente, caballos, asnos y mulares. Estos animales se utilizan a menudo como apoyo en las labores del campo, en el deporte, las exposiciones, la producción de genética, la recreación y la producción de carne. 
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-8.svg' alt='AvatarTop')
+          h2.text-center Otras aves
+          p.text-center Además del pollo de engorde y la gallina ponedora, existen otras aves que igualmente se consideran de importancia económica debido a su participación en el ámbito comercial. Entre estas se encuentran pavos, patos, codornices, gansos, palomas y aves ornamentales. Estos animales se encuentran en múltiples rangos de altitud y temperatura, lo cual resulta muy favorable desde el punto de vista técnico.  
+        
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-9.svg' alt='AvatarTop')
+          h2.text-center Otras especies menores
+          p.text-center Dentro de este grupo de especies menores destacan actividades productivas como la cunicultura y la producción de cuy. 
+            br
+            br
+            | Estos animales se constituyen en fuente importante de alimento a muy bajo costo. Además de la carne, su piel también es aprovechable. 
+        
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-10.svg' alt='AvatarTop')
+          h2.text-center Peces
+          p.text-center Este es otro de los grandes grupos de especies animales capaces de constituir proyectos productivos con altos niveles de rentabilidad. 
+            br
+            br
+            | Este tipo de proteínas tienen una alta demanda en diversos espacios, además que estos montajes se adaptan a diversas condiciones agroecológicas. 
 
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-6.svg' alt='AvatarTop')
-        h3.text-center Ovinos
-        p.text-center Es uno de los sistemas de ganadería más antiguos y conocidos del mundo. Estos animales, por lo general se destinan para la obtención de carne, especialmente los camuros, y lana, como en el caso de las ovejas. Estos animales poseen un amplio rango de adaptación climática.
-
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-7.svg' alt='AvatarTop')
-        h3.text-center Caprinos
-        p.text-center Junto con los ovinos, los caprinos también pertenecen al grupo de los pequeños rumiantes y son una de las explotaciones pecuarias más populares debido a su gran capacidad adaptativa. En este grupo se destaca la producción de cabras doble propósito. 
-      
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-8.svg' alt='AvatarTop')
-        h3.text-center Otras aves
-        p.text-center Además del pollo de engorde y la gallina ponedora, existen otras aves que igualmente se consideran de importancia económica debido a su participación en el ámbito comercial. Entre estas se encuentran pavos, patos, codornices, gansos, palomas y aves ornamentales. Estos animales se encuentran en múltiples rangos de altitud y temperatura, lo cual resulta muy favorable desde el punto de vista técnico.  
-      
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-9.svg' alt='AvatarTop')
-        h3.text-center Otras especies menores
-        p.text-center Dentro de este grupo de especies menores destacan actividades productivas como la cunicultura y la producción de cuy. 
-          br
-          br
-          | Estos animales se constituyen en fuente importante de alimento a muy bajo costo. Además de la carne, su piel también es aprovechable. 
-      
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-10.svg' alt='AvatarTop')
-        h3.text-center Peces
-        p.text-center Este es otro de los grandes grupos de especies animales capaces de constituir proyectos productivos con altos niveles de rentabilidad. 
-          br
-          br
-          | Este tipo de proteínas tienen una alta demanda en diversos espacios, además que estos montajes se adaptan a diversas condiciones agroecológicas. 
-
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-11.svg' alt='AvatarTop')
-        h3.text-center Especies no convencionales
-        p.text-center Recientemente, algunas especies animales han empezado a adquirir relevancia en el escenario productivo debido a su potencial alimenticio. 
-          br
-          br
-          | Dentro de este grupo destacan reptiles como iguanas, babillas y tortugas hicoteas. También se existen explotaciones de caracoles, avestruces, llamas y alpacas.  
-      
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/decorador-12.svg' alt='AvatarTop')
-        h3.text-center Insectos y anélidos
-        p.text-center Existen iniciativas de cría de mariposas con fines ornamentales; explotación apícola para la obtención de miel y polen; larvas de gusano de seda; lombriz roja californiana para la producción de proteína animal o para la transformación de los subproductos de la industria agropecuaria. 
-      
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-11.svg' alt='AvatarTop')
+          h2.text-center Especies no convencionales
+          p.text-center Recientemente, algunas especies animales han empezado a adquirir relevancia en el escenario productivo debido a su potencial alimenticio. 
+            br
+            br
+            | Dentro de este grupo destacan reptiles como iguanas, babillas y tortugas hicoteas. También se existen explotaciones de caracoles, avestruces, llamas y alpacas.  
+        
+        .tarjeta.color-secundario.p-4.col-ipad
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema1/decorador-12.svg' alt='AvatarTop')
+          h2.text-center Insectos y anélidos
+          p.text-center Existen iniciativas de cría de mariposas con fines ornamentales; explotación apícola para la obtención de miel y polen; larvas de gusano de seda; lombriz roja californiana para la producción de proteína animal o para la transformación de los subproductos de la industria agropecuaria. 
+        
     .row.mb-5
       .col-lg-5
         .tarjeta.tarjeta-1.p-4.mb-4(style="background-color:#1B3F5E")(data-aos="flip-up")
@@ -310,7 +311,7 @@
                 thead
                   tr.cabecera-a.text-center
                     th Especie
-                    th Área requerida (metro cuadrado)
+                    th Parámetro productivo
                     th Unidad
                 tbody
                   tr
@@ -324,7 +325,7 @@
                       p.mb-0 Porcentaje de nacimiento de hembras
                       p.mb-0 Mortalidad anual de lactantes
                       p.mb-0 Mortalidad anual de adultos
-                      p.mb-0 Mortalidad anual de adultos
+                      p.mb-0 Producción de leche diaria
                       p.mb-0 Número mensual de partos
                       p.mb-0 Ganancia de peso mensual
                     td.p-2(style="background-color:#FFF") 
@@ -404,7 +405,7 @@
                     th Unidad
                 tbody
                   tr
-                    td(style="background-color:#FFF") <strong>Porcinos</strong>
+                    td(style="background-color:#FFF") <strong>Especies menores (conejos - cuyes)</strong>
                     td.p-2(style="background-color:#FFF")
                       p.mb-0 Edad a la primera monta
                       p.mb-0 Peso corporal
@@ -511,7 +512,7 @@
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6. Buenas prácticas pecuarias
     
-    p.mb-5 Las buenas prácticas agrícolas y las buenas prácticas pecuarias son acciones encaminadas a la reducción de riesgos de deterioro del medio ambiente y de la contaminación cruzada de los productos agropecuarios; a través de prácticas de manejo la higiénicas y seguras por parte de los trabajadores, contando con los elementos necesarios para tener procesos productivos donde se conserven los productos inocuos y saludables.
+    p.mb-5 Las buenas prácticas agrícolas y las buenas prácticas pecuarias son acciones encaminadas a la reducción de riesgos de deterioro del medio ambiente y de la contaminación cruzada de los productos agropecuarios; a través de prácticas de manejo higiénicas y seguras por parte de los trabajadores, contando con los elementos necesarios para tener procesos productivos donde se conserven los productos inocuos y saludables.
 
     .tarjeta.tarjeta--gris.p-4.mb-5
       //- LineaTiempoC debe ir acompañado de una de una de estas clases => 
@@ -519,7 +520,7 @@
       //- text-small se usa para que los títulos sean mas pequeños
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="Paso 1")
-          .col-md-12.mb-4.mb-md-0
+          .col-md-12.mb-4.mb-md-0.col-ipad
             h3.mb-4 Principales aspectos de las Buenas Prácticas Pecuarias - BPP
             p De acuerdo con la FAO, consisten en “la aplicación del conocimiento disponible a la utilización sostenible de los recursos naturales básicos para la producción, en forma benévola, de productos agrícolas alimentarios y no alimentarios inocuos y saludables, a la vez que se procuran la viabilidad económica y la estabilidad social”. 
           
@@ -530,7 +531,7 @@
 
 
         .row(titulo="Paso 2")
-          .col-md-12.mb-4.mb-md-0
+          .col-md-12.mb-4.mb-md-0.col-ipad
             h3.mb-4 Buenas Prácticas Pecuarias  - BPP
             p De acuerdo con el Instituto Colombiano Agropecuario -ICA, estas se relacionan con las prácticas que se deben llevar a cabo en los sistemas pecuarios para disminuir los riesgos físicos, químicos y biológicos que puedan llegar a afectar la salud de los consumidores.
 
@@ -540,7 +541,7 @@
                 img(src='@/assets/curso/temas/tema1/img-15.png', alt='Texto que describa la imagen')
 
         .row(titulo="Paso 3")
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center.col-ipad
             .col-10.col-md-10.col-lg-8
               .titulo-sexto.color-acento-contenido.mb-5
                 p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Principales aspectos de las Buenas Prácticas Pecuarias  - BPP</em> 
@@ -548,7 +549,7 @@
                 img(src='@/assets/curso/temas/tema1/img-16.svg', alt='La figura muestra los principales aspectos de las buenas prácticas pecuarias, entre los que se tienen: Seguridad de las apersonas, medio ambiente, bienestar animal, inocuidad alimentaria.')
 
         .row(titulo="Paso 4")
-          .col-md-12.mb-4.mb-md-0
+          .col-md-12.mb-4.mb-md-0.col-ipad
             h3.mb-4 Marco normativo de las Buenas Prácticas Pecuarias (BPP) - Buenas Prácticas Ganaderas (BPG)
             p De acuerdo con lo expuesto por el Instituto Colombiano Agropecuario, existe un marco normativo para todos los aspectos relacionados con las buenas prácticas (sean pecuarias o ganaderas) el cual contribuye a la disminución de los riesgos a la salud asociados con el consumo de alimentos de origen animal. 
 
@@ -558,7 +559,7 @@
                 img(src='@/assets/curso/temas/tema1/img-17.png', alt='Texto que describa la imagen')
 
         .row(titulo="Paso 5")
-          .col-md-12.mb-4.mb-md-0
+          .col-md-12.mb-4.mb-md-0.col-ipad
             h4.mb-4.text-center Marco normativo de las Buenas Prácticas Pecuarias (BPP) - Buenas Prácticas Ganaderas (BPG)
 
             .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -589,7 +590,7 @@
                       h4 Ley 1774. Resolución ICA 7953/17
 
         .row(titulo="Paso 6")
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center.col-ipad
             .col-10.col-md-10.col-lg-12.desktop
               .titulo-sexto.color-acento-contenido.mb-5
                 p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Protocolos para acceder a la certificación</em> 

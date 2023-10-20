@@ -8,7 +8,7 @@
       h1 Planificación de la unidad productiva pecuaria
 
     .cajon-b.color-acento-contenido.p-3.mb-5(data-aos="fade-right")
-      p.mb-0 Como en todo proyecto productivo, el proceso de planificación es una de las etapas fundamentales, pues en ella se define el área a ocupar, el número de animales a alojar, los recursos necesarios, la cantidad de alimento requerido, los materiales a emplear y la cantidad de personal necesaria para adelantar las distintas labores. El éxito o el fracaso del proyecto pecuario, depende en buena medida del análisis detallado de cada uno de los siguientes aspectos. 
+      p.mb-0 Como en todo proyecto productivo, el proceso de planificación es una de las etapas fundamentales, pues en ella se define el área a ocupar, el número de animales a alojar, los recursos necesarios, la cantidad de alimento requerido, los materiales a emplear y la cantidad de personal necesaria para adelantar las distintas labores. El éxito o el fracaso del proyecto pecuario, depende en buena medida del análisis detallado de cada uno de los siguientes aspectos:
 
     .tarjeta.color-secundario.p-4.mb-5(data-aos="fade-down-left") 
       SlyderA(tipo="b")
@@ -35,22 +35,22 @@
             ul.lista-ul.mb-3
               li 
                 i.fas.fa-atom
-                | Cerramiento
+                | Cerramiento.
               li  
                 i.fas.fa-atom
-                | Manejo
+                | Manejo.
               li  
                 i.fas.fa-atom
-                | Alimentación
+                | Alimentación.
               li  
                 i.fas.fa-atom
-                | Alojamiento
+                | Alojamiento.
               li  
                 i.fas.fa-atom
-                | Cuidados especiales
+                | Cuidados especiales.
               li  
                 i.fas.fa-atom
-                | Almacenamiento 
+                | Almacenamiento.
 
           .col-md-6
             figure
@@ -122,7 +122,7 @@
             .col-lg-10
               h3(data-aos="fade-left")(style="color:#ffff") Diseños y características
 
-    p.mb-5 El diseño de las instalaciones pecuarias depende de diversos factores, pero básicamente está en función de la especie animal, los factores agroecológicos de la zona y la disponibilidad de materiales. Igualmente, antes de establecer cualquier instalación es importante considerar, entre otros, los siguientes factores: 
+    p.mb-5 Antes de establecer cualquier instalación es importante considerar, entre otros, los siguientes factores:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-left")
       .col-md-2.mb-3
@@ -159,90 +159,90 @@
       //- text-small se usa para que los títulos sean mas pequeños
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="1")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Corrales
-            p Cuadrante en donde se debe pensar en lo que la persona oye no solo de manera sonora, sino también de diversas fuentes, como canales de comunicación. Pretende responder estas preguntas: ¿Qué personas e ideas lo motivan? ¿Cuáles son sus ídolos? ¿Cuáles son sus marcas favoritas? ¿Qué medios y programas de comunicación consume?
+            p Permiten el alojamiento de los animales durante el desarrollo de tareas cotidianas como vacunación, palpación, desparasitación y marcado. Cuentan con una zona denominada apretadero, la cual facilita estas labores. Tienen una zona techada con comederos y bebederos por lo que funcionan como caseta de ordeño.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-19.png', alt='Texto que describa la imagen')
 
         .row(titulo="2")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Establos
             p Este diseño de corral es adecuado únicamente para el manejo animal, pues solo está dotado de apretadero y embarcadero. Carece de cubierta, por lo que evidentemente está diseñado para que los animales no permanezcan allí durante mucho tiempo.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-20.png', alt='Texto que describa la imagen')
 
         .row(titulo="3")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Pesebreras
-            p El establo debe proporcionar protección al animal frente a la intemperie y se constituye en un espacio de refugio en donde además se puede alimentar y beber. Deben tener pisos blandos, generalmente de tierra para permitir el drenaje de la orina.
+            p El establo debe proporcionar protección al animal frente a la intemperie y se constituye en un espacio de refugio en donde además se puede alimentar y beber. Deben tener pisos blandos, generalmente de tierra, para permitir el drenaje de la orina.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-21.png', alt='Texto que describa la imagen')
 
         .row(titulo="4")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Porquerizas
-            p Estas permiten un alojamiento adecuado a los animales en momentos de especial cuidado. Además de la cubierta cuentan con cerramiento que los protege de los elementos. En su interior se cuenta con implementos para el cuidado de los animales, agua y alimento.
+            p Estas permiten un alojamiento adecuado a los animales en momentos de especial cuidado. Además de la cubierta, cuentan con cerramiento que los protege de los elementos. En su interior se cuenta con implementos para el cuidado de los animales, agua y alimento.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-22.png', alt='Texto que describa la imagen')
 
         .row(titulo="5")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             p El uso de determinados diseños de porquerizas depende del tipo de explotación. En el caso de pequeñas explotaciones se pueden emplear modelos en los cuales se tiene un área para el cerdo reproductor, jaulas de maternidad y una zona de levante o engorde. En explotaciones intensivas, especialmente las que se dedican a la producción de carne, las instalaciones maximizan el uso de las áreas, por lo que los animales disponen de menos espacio para movilizarse.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-23.png', alt='Texto que describa la imagen')
 
         .row(titulo="6")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Jaulas
             p En la producción de especies menores bajo sistemas intensivos, principalmente de carne, se emplean jaulas como la de la imagen. En ellas se restringe la movilidad del animal y se le proporciona agua y alimento. En sistemas extensivos se emplean jaulas itinerantes que se pueden desplazar de un lugar a otro dependiendo de la disponibilidad de alimento, permitiendo al animal la posibilidad de pastorear
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-24.png', alt='Texto que describa la imagen')
 
         .row(titulo="7")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Apriscos
             p Estos se construyen elevados del suelo, aproximadamente a 80 cm, en un sistema que se denomina tarima. Con este sistema se evita que los animales entren en contacto con las excretas, además que facilita el aseo de las instalaciones. Igualmente, el sitio de ordeño también se debe ubicar sobre una tarima, lo cual facilita la labor del operario.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-25.png', alt='Texto que describa la imagen')
 
         .row(titulo="8")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Galpones para aves
-            p La producción de aves de corral se puede realizar de forma extensiva, semiintensiva e intensiva. Dependiendo del tipo de explotación así mismo se debe escoger el diseño del galpón. En la fotografía se observa un montaje semiintensivo el cual tiene unos requerimientos mínimos, como son el encerramiento y la cubierta.
+            p La producción de aves de corral se puede realizar de forma extensiva, semiintensiva e intensiva, dependiendo del tipo de explotación, así mismo se debe escoger el diseño del galpón. En la fotografía se observa un montaje semiintensivo el cual tiene unos requerimientos mínimos, como son el encerramiento y la cubierta.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-26.png', alt='Texto que describa la imagen')
 
         .row(titulo="9")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             p Por otro lado, en las explotaciones intensivas la demanda de insumos, recursos, equipos y mano de obra es mucho mayor, pues por unidad de área se tiene una mayor cantidad de animales, los que demandan gran cantidad de alimentos, medicinas y agua, entre otras cosas. Generalmente este tipo de estructuras utilizan una cubierta a dos aguas, con cortinas laterales para el manejo de la temperatura, y un piso cubierto con un material blando, principalmente, cascarilla de arroz.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-27.png', alt='Texto que describa la imagen')
 
         .row(titulo="10")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Estanques para peces
-            p En la actualidad existen múltiples diseños los cuales se acomodan a las necesidades de los productores y la disponibilidad de recursos. Estos pueden ser cavados directamente en el suelo o construidos con materiales que permitan almacenar el agua necesaria para la explotación, como es el caso de los estanques de geomembrana que se aprecian en la fotografía.
+            p En la actualidad existen múltiples diseños, los cuales se acomodan a las necesidades de los productores y la disponibilidad de recursos. Estos pueden ser cavados directamente en el suelo o construidos con materiales que permitan almacenar el agua necesaria para la explotación, como es el caso de los estanques de geomembrana que se aprecian en la fotografía.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema2/img-28.png', alt='Texto que describa la imagen')
 
@@ -276,7 +276,7 @@
                     td(style="background-color:#FFF") 5 m²
                     td(style="background-color:#FFF") 2,5 m²
                     td(style="background-color:#FFF") 0,8 m
-        p El área de la pradera se estima mediante la medición de la cantidad de forraje disponible por metro cuadrado de potrero. Para esto es importante saber que un animal adulto, en el caso de bovinos, puede consumir hasta el 10 % de su peso en alimento al día. Es decir que si una vaca pesa 350 kilogramos, en un día consumirá 35 kilogramos de forraje. Si por cada metro cuadrado se tienen, por ejemplo, 2,8 kilogramos de forraje, para saber qué área de pastoreo requiere el animal basta con dividir los kilogramos que debe consumir el animal entre los kilogramos que produce un metro cuadrado.                    
+        p El área de la pradera se estima mediante la medición de la cantidad de forraje disponible por metro cuadrado de potrero. Para esto es importante saber que un animal adulto, en el caso de bovinos, puede consumir hasta el 10 % de su peso en alimento al día. Es decir, que si una vaca pesa 350 kilogramos, en un día consumirá 35 kilogramos de forraje. Si por cada metro cuadrado se tienen, por ejemplo, 2,8 kilogramos de forraje, para saber qué área de pastoreo requiere el animal, basta con dividir los kilogramos que debe consumir el animal entre los kilogramos que produce un metro cuadrado.                    
 
       .row(numero="2" titulo="Áreas mínimas Equinos")
         .row.justify-content-center.align-items-center.mb-5
@@ -318,8 +318,8 @@
                     td(style="background-color:#FFF") Lechones
                     td(style="background-color:#FFF") 0,25 m²
                   tr  
-                    td(style="background-color:#FFF") Adultos 
-                    td(style="background-color:#FFF") 1 m²
+                    td(style="background-color:#FFF") Adultos jóvenes
+                    td(style="background-color:#FFF") 0,5 m²
                   tr  
                     td(style="background-color:#FFF") Jaula para cerdas de cría
                     td(style="background-color:#FFF") 0,9 m² (ancho 0,45 m X largo 2,20 m)
@@ -483,7 +483,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 15 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 15.] <em>Períodos de descanso</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 15.] <em>Períodos de descanso del área</em>
             .tabla-a.color-acento-contenido
               table
                 caption Fuente: https://www.engormix.com/ganaderia-leche/articulos/tecnificacion-fincas-ganaderas-practicas-t44659.html
@@ -544,7 +544,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img-2-2.svg', alt='Imagen que indica el lugar en donde debe distribuirse los lugares dentro del corral bovino, en cada una de las 4 esquinas se encuentra: Comedero Comedero Acceso Bebedero') 
 
-    p.mb-5 En este caso se obtiene un corral de 50 metros cuadrados efectivos con dos comederos de 4 metros de largo cada uno y un bebedero. Este tipo de corrales, para alojamiento temporal, generalmente son cubiertos por lo que con esta estimación también es posible identificar la necesidad de materiales para esta estructura. 
+    p.mb-5 En este caso se obtiene un corral de 50 metros cuadrados efectivos con dos comederos de 4 metros de largo cada uno y un bebedero. Este tipo de corrales, para alojamiento temporal, generalmente son cubiertos, por lo que con esta estimación también es posible identificar la necesidad de materiales para esta estructura. 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right")
       .col-12.col-md-11.col-lg-10.tarjeta.color-secundario1
@@ -600,7 +600,6 @@
                   p.mb-0 Yarda
                   p.mb-0 Pulgada
                 td.text-center(style="background-color:#FFF") 1
-                  p.mb-0 100
                   p.mb-0 1000
                   p.mb-0 10
                   p.mb-0 0,1
@@ -609,7 +608,7 @@
                   p.mb-0 1.609,34
                   p.mb-0 0,3048
                   p.mb-0 0,9144
-                  p.mb-0 0,254
+                  p.mb-0 0,0254
              
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12(data-aos="fade-right", alt="")
@@ -690,7 +689,8 @@
         | Dependiendo del sistema, es ideal disponer de una zona de pastoreo. 
 
     .col-10.col-md-10.col-lg-10.mb-4(data-aos="fade-right", alt="")
-      h4 Principales instalaciones de acuerdo con la especie animal
+      .titulo-sexto.color-acento-contenido
+        p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Principales instalaciones de acuerdo con la especie animal</em>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right", alt="")
@@ -715,14 +715,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Ejemplos de bebederos y comederos</em>
+          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Ejemplos de bebederos y comederos</em>
         figure
           img(src='@/assets/curso/temas/tema3/img-14-1.png', alt='Se presentan tres imágenes cada una correspondiente a: Bebedero automático para cerdos Bebedero automático para aves Comedero automático para aves')  
     
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Ejemplos de bebederos y comederos</em>
+          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Ejemplos de bebederos y comederos</em>
         figure
           img(src='@/assets/curso/temas/tema3/img-14-2.png', alt='Se presentan tres imágenes cada una correspondiente a: Bebedero automático para cerdos Bebedero automático para aves Comedero automático para aves')
 
@@ -747,7 +747,7 @@
             | Adecuarlos a las condiciones de cada explotación pecuaria. 
         p Dependiendo de la explotación pecuaria y del ciclo donde se encuentre, existen algunas instalaciones complementarias que son necesarias para el desarrollo de la actividad productiva. 
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-5.col-ipad(:datos="datosSlyder")
 
     .row.mb-4
       .col-lg-6
@@ -850,16 +850,15 @@
     LineaTiempoD.color-acento-contenido.mb-5(data-aos="fade-left")
       .row(numero="1" titulo="Equipos para aseo y desinfección")
         .col-md-6.mb-4.mb-md-0
-          p.text-small Estos equipos se utilizan en labores de aseo y desinfección de áreas frecuentadas por los animales y los operarios. En este grupo de encuentran, por ejemplo, las fumigadoras a motor, hidro lavadoras e insufladoras a motor.
-          p.text-small Estos se utilizan para llevar cargas al interior de la unidad pecuaria. Generalmente pueden emplearse tractores o motocultores para cumplir con este propósito.
-
+          p.text-small Estos equipos se utilizan en labores de aseo y desinfección de áreas frecuentadas por los animales y los operarios. En este grupo se encuentran, por ejemplo, las fumigadoras a motor, hidro lavadoras e insufladoras a motor.
+         
         .col-md-4
           figure
             img(src='@/assets/curso/temas/tema3/img-25.svg', alt='Texto que describa la imagen')
 
       .row(numero="2" titulo="Equipos para transporte")
         .col-md-6.mb-4.mb-md-0
-          p.text-small Estos se utilizan para llevar cargas al interior de la unidad pecuaria. Generalmente pueden emplearse tractores o motocultores para cumplir con este propósito.
+          p.text-small Estos se utilizan para llevar cargas al interior de la unidad pecuaria. Generalmente, pueden emplearse tractores o motocultores para cumplir con este propósito.
 
         .col-md-4
           figure
@@ -876,7 +875,7 @@
       .row(numero="4" titulo="Equipos para vacunación")
         .col-md-6.mb-4.mb-md-0
           p.text-small En algunas explotaciones avícolas de tipo intensivo se utilizan equipos de vacunación masivos llamados nebulizadores.
-          p.text-small Estos tienen la facultad de reducir el medicamento un tipo de gota muy pequeña que es aspirada por los animales. 
+          p.text-small Estos tienen la facultad de reducir el medicamento, un tipo de gota muy pequeña que es aspirada por los animales. 
 
         .col-md-4
           figure
@@ -893,8 +892,8 @@
       
       .row(numero="6" titulo="Equipos para piscicultura")
         .col-md-6.mb-4.mb-md-0
-          p.text-small En la industria piscícola intensiva, se requieren equipos que garanticen la oxigenación y recirculación del agua ya que sin esto difícilmente los peces sobrevivirían. 
-          p.text-small Entre los equipos más empleados en este tipo de montajes están: inyectores de oxígeno, mangueras difusoras, aireadores tipo splash y bombas eléctricas.
+          p.text-small En la industria piscícola intensiva, se requieren equipos que garanticen la oxigenación y recirculación del agua, ya que sin esto difícilmente los peces sobrevivirían. 
+          p.text-small Entre los equipos más empleados en este tipo de montajes están: inyectores de oxígeno, mangueras difusoras, aireadores tipo <em>splash</em> y bombas eléctricas.
           p.text-small En sistemas más recientes, estos equipos están empleando como fuente de alimentación sistemas fotovoltaicos. 
 
         .col-md-4
@@ -937,13 +936,13 @@ export default {
       {
         titulo: '',
         texto:
-          'Estas instalaciones por lo general se encargan de dar confort a los animales, facilitar las labores y proporcionar los cuidados necesarios para su sostenibilidad. <br><br>Las instalaciones más comunes que se encuentran en las unidades pecuarias cumplen las siguientes funciones.',
+          'Estas instalaciones por lo general se encargan de dar confort a los animales, facilitar las labores y proporcionar los cuidados necesarios para su sostenibilidad. <br><br>Las instalaciones más comunes que se encuentran en las unidades pecuarias cumplen las siguientes funciones:',
         imagen: require('@/assets/curso/temas/tema3/img-16.png'),
       },
       {
         titulo: '',
         texto:
-          'El <strong>control de temperatura</strong> es uno de los factores más críticos sobre todo en procesos de cría. Para esto se emplean cortinas las cuales, dependiendo de la necesidad, se pueden abrir o cerrar, según sea el caso. <br><br>También existen <strong>sistemas de calefacción</strong> que utilizan energía eléctrica o combustible para alimentar lámparas, por medio de los cuales se puede regular la temperatura en las camas, en el caso de cerdos, o en las jaulas en el caso de pollos recién nacidos.',
+          'El <strong>control de temperatura</strong> es uno de los factores más críticos, sobre todo en procesos de cría. Para esto se emplean cortinas las cuales, dependiendo de la necesidad, se pueden abrir o cerrar, según sea el caso. <br><br>También existen <strong>sistemas de calefacción</strong> que utilizan energía eléctrica o combustible para alimentar lámparas, por medio de los cuales se puede regular la temperatura en las camas, en el caso de cerdos, o en las jaulas, en el caso de pollos recién nacidos.',
         imagen: require('@/assets/curso/temas/tema3/img-17.png'),
       },
       {
@@ -951,7 +950,6 @@ export default {
         texto:
           'La <strong>aireación y ventilación en sistemas intensivos.</strong> Es común que se requiera ventilar el lugar de alojamiento, especialmente en épocas calurosas, por lo que se deben adecuar instalaciones que faciliten la circulación del aire y la disipación de gases nocivos.',
         imagen: require('@/assets/curso/temas/tema3/img-18.png'),
-        leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: '',
@@ -962,7 +960,7 @@ export default {
       {
         titulo: '',
         texto:
-          'El <strong>manejo de residuos</strong> en todas las explotaciones pecuarias se producen residuos sólidos, por lo que es necesario adecuar espacios en los cuales se haga un manejo técnico de estos desechos bien sea para su disposición parcial o a su disposición final.',
+          'El <strong>manejo de residuos</strong> en todas las explotaciones pecuarias se producen residuos sólidos, por lo que es necesario adecuar espacios en los cuales se haga un manejo técnico de estos desechos, bien sea para su disposición parcial o a su disposición final.',
         imagen: require('@/assets/curso/temas/tema3/img-20.png'),
       },
       {

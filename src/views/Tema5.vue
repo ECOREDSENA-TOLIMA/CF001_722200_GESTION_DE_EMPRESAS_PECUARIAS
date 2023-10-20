@@ -18,7 +18,7 @@
       h2 5.1. Manuales de operación de equipos
 
     p Para la utilización de los equipos es importante seguir las recomendaciones del fabricante y asegurarse de cumplir todas y cada una de ellas, pues es una de las formas de asegurar su durabilidad y buen uso. Estas recomendaciones están consignadas en los manuales de operación, por lo que es necesario tenerlos siempre disponibles. Igualmente, para evitar daños es importante establecer protocolos para el uso de estos elementos y realizar jornadas de inducción y de capacitación al personal para su operación. 
-    p.mb-5 Para la utilización de los equipos es importante seguir las recomendaciones del fabricante y asegurarse de cumplir todas y cada una de ellas, pues es una de las formas de asegurar su durabilidad y buen uso. Estas recomendaciones están consignadas en los manuales de operación, por lo que es necesario tenerlos siempre disponibles. Igualmente, para evitar daños es importante establecer protocolos para el uso de estos elementos y realizar jornadas de inducción y de capacitación al personal para su operación.
+    p.mb-5 Los manuales de operación de equipos, generalmente se componen de las siguientes partes:
 
     .tarjeta.color-primario.mb-5(data-aos="fade-down-left")
       .row.justify-content-center.align-items-center
@@ -63,35 +63,35 @@
     p.mb-5 Una de las formas de asegurar el cumplimiento de las normas de bioseguridad al interior de la explotación pecuaria, es vigilando los protocolos de desinfección, tanto de equipos como de instalaciones. A continuación, se presentan los principales aspectos que se deben considerar para el diseño e implementación de protocolos de desinfección en las explotaciones pecuarias. 
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-3.svg' alt='AvatarTop')
         h2 Limpieza en seco
         p Se utiliza una escoba o un cepillo para barrer todas las impurezas y agentes contaminantes presentes en las superficies de la unidad pecuaria. 
       
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-4.svg' alt='AvatarTop')
         h2 Enjuague previo
         p Con la ayuda del agua se quitan pequeñas partículas que no fueron retiradas en la fase de lavado en seco.
       
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-5.svg' alt='AvatarTop')
         h2 Aplicación de detergente
         p Con la ayuda del detergente se desprenden la suciedad y las películas bacterianas, y las mantienen en solución o suspensión.
       
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-6.svg' alt='AvatarTop')
         h2 Enjuague posterior
         p Con la ayuda del agua se retiran los restos de partículas contaminantes que aún permanezcan sobre la superficie. Es igualmente importante retirar los restos de detergente, ya que estos pueden disminuir la eficacia de los agentes desinfectantes que se usen posteriormente. 
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema5/img-7.svg' alt='AvatarTop')
@@ -113,25 +113,25 @@
       //- text-small se usa para que los títulos sean mas pequeños
       LineaTiempoC.color-acento-contenido(text-small)
         .row(titulo="1")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Detergentes de uso general
             p Los detergentes de uso general son poco recomendados en superficies donde se hacen procedimientos, se recomienda, en su lugar, el uso de detergentes alcalinos o clorados.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-8.png', alt='Texto que describa la imagen')
 
         .row(titulo="2")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Detergentes clorados
             p Los detergentes clorados se emplean en superficies que, en ocasiones, resultan difíciles de limpiar, pero no se recomiendan en superficies como el aluminio, debido a que son altamente corrosivos. Es importante mencionar que, aunque los detergentes son fundamentales en los procesos de limpieza, no son desinfectantes.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-9.png', alt='Texto que describa la imagen')
 
         .row(titulo="3")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Factores que inciden en la eficacia de los detergentes
             p Dentro de la clasificación de los detergentes, existen de uso general, alcalino o clorados, ácidos y enzimáticos, la eficacia depende de los siguientes factores:
             p <strong>Tiempo de contacto:</strong> los detergentes requieren un tiempo prudente para actuar sobre la suciedad.
@@ -139,52 +139,52 @@
             p <strong>Ruptura física</strong> de las partículas de suciedad.
             p <strong>Química del agua</strong> empleada en los procesos de limpieza.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-10.png', alt='Texto que describa la imagen')
 
         .row(titulo="4")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Desinfectantes
-            p En cuanto a los desinfectantes es posible que no requieran enjuague antes de su uso, aunque esto depende del tipo de desinfectante y su concentración. Estos productos deben estar aprobados por la autoridad sanitaria y su empleo debe realizarse siguiendo las recomendaciones del fabricante.
+            p En cuanto a los desinfectantes, es posible que no requieran enjuague antes de su uso, aunque esto depende del tipo de desinfectante y su concentración. Estos productos deben estar aprobados por la autoridad sanitaria y su empleo debe realizarse siguiendo las recomendaciones del fabricante.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-11.png', alt='Texto que describa la imagen')
 
         .row(titulo="5")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Desinfectantes con base de cloro
             p Los productos desinfectantes basados en cloro son los más utilizados en diversas industrias, debido a que toleran aguas calcáreas, son fáciles de conseguir y económicos, además contrarrestan una amplia variedad de hongos y bacterias.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-12.png', alt='Texto que describa la imagen')
 
         .row(titulo="6")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Otros compuestos
             p Además del cloro, existen otros compuestos basados en amonio cuaternario, pero tienen como desventaja que requieren mayor tiempo de exposición para aumentar su efectividad, lo cual concede un mayor efecto residual. Debido a que no son eficaces frente a algunos patógenos, es recomendable rotarlos con otros desinfectantes.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-13.png', alt='Texto que describa la imagen')
 
         .row(titulo="7")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Desinfectantes con base de iodo
-            p En una tercera categoría, están los desinfectantes basados en iodo, denominados iodóforos, los cuales resultan altamente eficaces contra diversos patógenos, incluso hongos y levaduras incluso en bajas concentraciones. Otra de sus ventajas, es que son más estables, menos corrosivos, no irritan la piel y funcionan bien con aguas calcáreas.
+            p En una tercera categoría, están los desinfectantes basados en iodo, denominados iodóforos, los cuales resultan altamente eficaces contra diversos patógenos, incluso hongos y levaduras, también en bajas concentraciones. Otra de sus ventajas, es que son más estables, menos corrosivos, no irritan la piel y funcionan bien con aguas calcáreas.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-14.png', alt='Texto que describa la imagen')
 
         .row(titulo="8")
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.mb-4.mb-md-0.col-ipad
             h3 Otros desinfectantes 
-            p Otro grupo lo conforman los desinfectantes ácidos.  Estos poseen una estructura más estable a altas temperaturas o en presencia de materia orgánica, por lo que se utilizan especialmente en la limpieza de equipos.  Finalmente, existen otros agentes desinfectantes entre los cuales se destacan el ozono, la luz ultravioleta y el agua caliente.
+            p Otro grupo lo conforman los desinfectantes ácidos.  Estos poseen una estructura más estable a altas temperaturas o en presencia de materia orgánica, por lo que se utilizan especialmente en la limpieza de equipos.  Finalmente, existen otros agentes desinfectantes, entre los cuales se destacan el ozono, la luz ultravioleta y el agua caliente.
 
-          .col-md-6
+          .col-md-6.col-ipad
             figure
               img(src='@/assets/curso/temas/tema5/img-15.png', alt='Texto que describa la imagen')
 
@@ -232,6 +232,8 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 9.] <em>Clasificación de los residuos sólidos</em>
         figure
           img(src='@/assets/curso/temas/tema5/img-17-1.svg', alt='La imagen nos muestra que los residuos sólidos se clasifican en: residuos reciclables, no reciclables, orgánicos y especiales, estos últimos corresponde a los empaques de productos agroquímicos, residuos de medicamentos, restos anatomo patológicos, empaques de sustancias corrosivas, etc.')
           figcaption Nota. Elaboración propia con base en Ministerio de Comercio, Industria y Turismo    
@@ -251,14 +253,14 @@
     .row.mb-5(data-aos="fade-left")
       .col-md-9 
         p La actividad productiva pecuaria, al igual que otras explotaciones, genera una gran cantidad de residuos, la mayoría de ellos orgánicos, los cuales deben manejarse adecuadamente para evitar la proliferación de patógenos, la contaminación de suelos y aguas y la generación de olores ofensivos. La disposición final de los residuos se realiza de acuerdo con el tipo de material que se genere, conforme a la clasificación establecida en la explotación pecuaria. 
-        p Respecto a los métodos para la disposición final de estos residuos se tiene lo siguiente:
+        p Respecto a los métodos para la disposición final de estos residuos, se tiene lo siguiente:
       .col-md-3
         img(src="@/assets/curso/temas/tema5/img-18.svg")
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Residuos reciclables:")
         .col-md-12.mb-4.mb-md-0
-          p estos se depositan en recipientes ubicados dentro de la explotación pecuaria los cuales deben estar debidamente rotulados y dispuestos en un área específica. El sitio de almacenamiento de los residuos debe estar bien ventilado, tener fácil acceso, estar construido con materiales que permitan la limpieza de sus superficies y que disponga de los medios para evitar la entrada de vectores (Decreto 1140 de 2003). 
+          p estos se depositan en recipientes ubicados dentro de la explotación pecuaria, los cuales deben estar debidamente rotulados y dispuestos en un área específica. El sitio de almacenamiento de los residuos debe estar bien ventilado, tener fácil acceso, estar construido con materiales que permitan la limpieza de sus superficies y que disponga de los medios para evitar la entrada de vectores (Decreto 1140 de 2003). 
 
       .row(titulo="Residuos no reciclables:")
         .col-md-12.mb-4.mb-md-0
@@ -270,7 +272,7 @@
 
       .row(titulo="Residuos especiales: ")
         .col-md-12.mb-4.mb-md-0
-          p este tipo de residuos requieren de un manejo distinto debido a que, por su naturaleza y los componentes que los integran, resultan peligrosos para los animales y para el personal que labora en la unidad productiva. Los envases de plaguicidas deben someterse en primera instancia a un proceso conocido como triple lavado, el cual consiste en enjuagar con agua tres veces el recipiente antes de perforarlo y almacenarlo. En relación con los residuos de vacunas se inactivan sumergiéndolos en soluciones desinfectantes por 24 horas. Por su parte las agujas empleadas para la inyección de medicamentos se disponen en “guardianes”, para su posterior disposición. 
+          p este tipo de residuos requieren de un manejo distinto debido a que, por su naturaleza y los componentes que los integran, resultan peligrosos para los animales y para el personal que labora en la unidad productiva. Los envases de plaguicidas deben someterse en primera instancia a un proceso conocido como triple lavado, el cual consiste en enjuagar con agua tres veces el recipiente antes de perforarlo y almacenarlo. En relación con los residuos de vacunas, se inactivan sumergiéndolos en soluciones desinfectantes por 24 horas. Por su parte, las agujas empleadas para la inyección de medicamentos se disponen en “guardianes”, para su posterior disposición. 
           p En algunas explotaciones avícolas el manejo de las mortalidades es uno de los temas más complejos, por lo que en muchas de ellas se opta por enterrar los animales, y así se reducen los riesgos de transmisión de enfermedades y olores ofensivos. 
 
       

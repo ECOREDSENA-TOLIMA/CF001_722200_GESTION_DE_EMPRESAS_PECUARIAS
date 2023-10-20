@@ -22,9 +22,12 @@
       .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 6.] <em>Aspectos normativos</em>
-        .tabla-a.color-acento-botones(alt="Tabla 6 Aspectos normativos En la tabla se observa el código sustantivo de trabajo, decretos, resoluciones, leyes, referentes a producción pecuaria.") 
+        .tabla-a.color-acento-contenido(alt="Tabla 6 Aspectos normativos En la tabla se observa el código sustantivo de trabajo, decretos, resoluciones, leyes, referentes a producción pecuaria.") 
           table
             thead
+              tr
+                th Norma
+                th Alcance
             tbody
               tr
                 td.text-center(style="background-color:#F6F6F6") <strong>Código sustantivo del trabajo (1951)</strong>
@@ -93,28 +96,28 @@
             ul.lista-ul.mb-3
               li 
                 i.fas.fa-atom
-                | <strong>Protección para la cabeza</strong>
+                | <strong>Protección para la cabeza.</strong>
               li  
                 i.fas.fa-atom
-                | <strong>Protección auditiva</strong>
+                | <strong>Protección auditiva.</strong>
               li  
                 i.fas.fa-atom
-                | <strong>Protección visual</strong>
+                | <strong>Protección visual.</strong>
               li  
                 i.fas.fa-atom
-                | <strong>Protección respiratoria</strong>
+                | <strong>Protección respiratoria.</strong>
               li  
                 i.fas.fa-atom
-                | <strong>Protección para manos</strong>
+                | <strong>Protección para manos.</strong>
               li  
                 i.fas.fa-atom
-                | <strong>Ropa de protección</strong>
+                | <strong>Ropa de protección.</strong>
               li  
                 i.fas.fa-atom
-                | <strong>Protección para pies</strong>
+                | <strong>Protección para pies.</strong>
               li  
                 i.fas.fa-atom
-                | <strong>Accesorios: fajas, arneses, mandiles</strong>
+                | <strong>Accesorios: fajas, arneses, mandiles.</strong>
 
 
       .py-3.py-md-4(titulo="Dotación a los trabajadores de la granja pecuaria")
@@ -135,7 +138,7 @@
           .col-md-6
             p <strong>Higiénicos y biológicos:</strong> patógenos, enfermedades trasmisibles. 
             p <strong>Químicos:</strong> quemaduras, irritación, intoxicación, dermatitis. 
-            p <strong>Mecánicos:</strong> fracturas, cortes, aplastamientos. Causados por manipulación de equipos, herramientas o por ataque de animales. 
+            p <strong>Mecánicos:</strong> fracturas, cortes, aplastamientos causados por manipulación de equipos, herramientas o por ataque de animales. 
             p <strong>Térmicos:</strong> exposición a altas o bajas temperaturas. 
             p <strong>Eléctricos:</strong> contacto con cercas eléctricas - equipos eléctricos.
             p <strong>Por acciones repetitivas:</strong> ordeño - recolección de huevos - vacunación de animales.
@@ -145,7 +148,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-md-8
-        p Uno de los principios de la nueva forma de explotaciones pecuarias es la protección de los recursos naturales y la sostenibilidad ambiental, por lo que este es un tema transversal a todas las actividades que tienen lugar en la unidad productiva. Dentro del manejo ambiental existen elementos fundamentales sobre los cuales se desarrolla todo el ejercicio, por lo que dentro de la planificación de las actividades es importante definir cómo se abordarán, como también los recursos necesarios para poderlos implementar. Respecto al tema ambiental existe una normativa aplicable que ordena estas actividades y las integra al sistema productivo.
+        p Uno de los principios de la nueva forma de explotaciones pecuarias es la protección de los recursos naturales y la sostenibilidad ambiental, por lo que este es un tema transversal a todas las actividades que tienen lugar en la unidad productiva. Dentro del manejo ambiental existen elementos fundamentales sobre los cuales se desarrolla todo el ejercicio, por lo que dentro de la planificación de las actividades es importante definir cómo se abordarán, como también los recursos necesarios para poderlos implementar. Respecto al tema ambiental, existe una normativa aplicable que ordena estas actividades y las integra al sistema productivo.
       .col-md-4
         img(src="@/assets/curso/temas/tema2/img-5.svg")
       
@@ -178,13 +181,13 @@
                 td(style="background-color:#F6F6F6") Modifica la Resolución 150 de 2003.
               tr
                 td.text-center <strong>Ley 1255 del 28 de noviembre de 2008 ICA</strong> 
-                td Creación de un programa que preserve el estado sanitario de país libre de influenza aviar, así como el control y erradicación de la enfermedad Newcastle en el territorio nacional.
+                td Creación de un programa que preserve el estado sanitario de país libre de influenza aviar, así como el control y erradicación de la enfermedad <em>Newcastle</em> en el territorio nacional.
               tr
                 td.text-center(style="background-color:#F6F6F6") <strong>Resolución 587 del 27 de diciembre de 1973 ICA</strong> 
-                td(style="background-color:#F6F6F6") Medidas para el control de la enfermedad de Mark en las aves de corral.
+                td(style="background-color:#F6F6F6") Medidas para el control de la enfermedad de <em>Mark</em> en las aves de corral.
               tr
                 td.text-center <strong>Resolución 1937 del 22 de julio de 2003 ICA</strong>
-                td Medidas sanitarias para la prevención y control de la enfermedad Newcastle en el territorio nacional.
+                td Medidas sanitarias para la prevención y control de la enfermedad <em>Newcastle</em> en el territorio nacional.
               tr
                 td.text-center(style="background-color:#F6F6F6") <strong>Resolución 375 del 27 de febrero de 2004 ICA</strong>
                 td(style="background-color:#F6F6F6") Disposiciones sobre Registro y Control de los Bioinsumos y Extractos Vegetales de uso agrícola en Colombia.
@@ -193,7 +196,7 @@
                 td Disposiciones sanitarias para la construcción de nuevas granjas avícolas en el territorio nacional.
               tr
                 td.text-center(style="background-color:#F6F6F6") <strong>Resolución 3654 del 28 de septiembre de 2009 ICA</strong> 
-                td(style="background-color:#F6F6F6") Adopción del programa para el control y erradicación de la enfermedad Newcastle en el territorio nacional.
+                td(style="background-color:#F6F6F6") Adopción del programa para el control y erradicación de la enfermedad <em>Newcastle</em> en el territorio nacional.
               tr
                 td.text-center <strong>Resolución 1183 del 25 de marzo de 2010 ICA</strong>
                 td Condiciones de Bioseguridad que se deben cumplir las granjas avícolas comerciales en el país para su certificación.

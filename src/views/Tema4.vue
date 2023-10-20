@@ -23,13 +23,11 @@
       .col-md-2
         img(src="@/assets/curso/temas/tema4/img-2.svg")
 
-    #titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 Recursos técnicos
-
-    p.mb-5 Estos hacen referencia a los medios físicos o materiales de los que dispone la empresa pecuaria para el desarrollo de su actividad productiva. Estos se pueden dividir en tangibles, cuando se pueden encontrar en una forma física, o intangibles cuando están representados en tecnología o cualquier otro bien inmaterial. 
+    p.mb-5(data-aos="fade-left") Dichos recursos técnicos hacen referencia a los medios físicos o materiales de los que dispone la empresa pecuaria para el desarrollo de su actividad productiva. Estos se pueden dividir en tangibles, cuando se pueden encontrar en una forma física, o intangibles cuando están representados en tecnología o cualquier otro bien inmaterial.
 
     .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Se presenta figura descriptiva de dos tipos de recursos presentes en la empresa pecuaria: Recursos técnicos Equipos. Maquinaria. Insumos. Herramientas. Pie de cría. Instalaciones. Terrenos. Edificios. Artículos de oficina. Recursos tecnológicos Equipos de cómputo. Equipos de comunicación. Programas computacionales. Aplicaciones. Sistemas. Redes informáticas. Sensores remotos.")
-      h4 Tipos de recursos presentes en la empresa pecuaria
+      .titulo-sexto.color-acento-contenido
+        p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Tipos de recursos presentes en la empresa pecuaria</em>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right", alt="")
@@ -46,7 +44,6 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-md-8
-        p <strong>Recurso humano</strong> 
         p Es tal vez el recurso más importante con el que cuenta la unidad pecuaria, puesto que todas y cada una de las labores que se desarrollan al interior de la unidad productiva requieren de la intervención del equipo de trabajo. En este punto es importante considerar las labores que se realizan en la unidad productiva y estimar la demanda de mano de obra con base en ellas (tiempos y movimientos en la empresa). 
         p Para lograr estimaciones más precisas, es importante identificar las tareas y medir el tiempo que demanda cada una de ellas. De esta forma, es posible obtener promedios que posteriormente se pueden emplear para la programación de actividades. 
       .col-md-4
@@ -55,14 +52,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Elementos que se pueden tener en cuenta al momento de seleccionar el personal (recurso humano) </em>
+          p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Elementos que se pueden tener en cuenta al momento de seleccionar el personal (recurso humano) </em>
         figure
           img(src='@/assets/curso/temas/tema4/img-6-1.svg', alt='Se presenta figura con tres elementos requeridos al momento de seleccionar personal: Habilidades y competencias Habilidades para trabajo en equipo. Habilidad analítica y de resolución de problemas. Capacidad para tomar decisiones. Comportamiento cordial, respetuoso y colaborativo. Competencias fundamentales Profesionalismo. Transparencia. Eficiencia. Habilidades generales Aprendizaje continuo. Liderazgo. Trabajo en equipo.')  
     
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Elementos que se pueden tener en cuenta al momento de seleccionar el personal (recurso humano) </em>
+          p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Elementos que se pueden tener en cuenta al momento de seleccionar el personal (recurso humano) </em>
         figure
           img(src='@/assets/curso/temas/tema4/img-6-2.svg', alt='Se presenta figura con tres elementos requeridos al momento de seleccionar personal: Habilidades y competencias Habilidades para trabajo en equipo. Habilidad analítica y de resolución de problemas. Capacidad para tomar decisiones. Comportamiento cordial, respetuoso y colaborativo. Competencias fundamentales Profesionalismo. Transparencia. Eficiencia. Habilidades generales Aprendizaje continuo. Liderazgo. Trabajo en equipo.')
     
@@ -75,11 +72,11 @@
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.3. Recursos ambientales
 
-    p <strong>Recursos ambientales</strong>
     p.mb-5 Otro de los recursos necesarios para adelantar la actividad productiva de manera eficiente, es la identificación de los recursos ambientales, en términos de materiales aprovechables, pero también de servicios ecosistémicos. Para caracterizar la oferta de servicios ambientales, es necesario identificar las condiciones agroecológicas de la zona. 
 
     .col-10.col-md-10.col-lg-10.mb-4(data-aos="fade-right", alt="")
-      h4 Condiciones agroecológicas
+      .titulo-sexto.color-acento-contenido
+        p.titulo.pb-0.mb-0 #[b Figura 8.] <em>Condiciones agroecológicas</em>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12.desktop(data-aos="fade-right", alt="")
@@ -114,7 +111,7 @@
       .col-md-4
         img(src="@/assets/curso/temas/tema4/img-11.png")
 
-    p.mb-5 Para la elaboración de inventarios acordes con las necesidades de la explotación pecuaria, es clave identificar en primera instancia qué se quiere cuantificar y cómo clasificar. Algunos ejemplos de las columnas que pueden llevar los inventarios de materias primas, animales, herramientas y suelos son los siguientes. 
+    p.mb-5 Para la elaboración de inventarios acordes con las necesidades de la explotación pecuaria, es clave identificar en primera instancia qué se quiere cuantificar y cómo clasificar. Algunos ejemplos de las columnas que pueden llevar los inventarios de materias primas, animales, herramientas y suelos son los siguientes:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-12(data-aos="fade-right", alt="")
@@ -190,7 +187,7 @@
               tr
                 td 01
                 td 12
-                td Pasto brachiaria
+                td Pasto <em>brachiaria</em>
                 td Maíz
                 td x
                 td 
@@ -257,42 +254,42 @@
     p.mb-5 Para la elaboración de un cronograma en una empresa pecuaria es importante conocer lo siguiente:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/img-16.svg' alt='AvatarTop')
         h2 Tiempo de labores
         p El tiempo que puede invertir una persona en determinadas actividades. Por ejemplo, alimentación de peces, montaje de cercas, etc.   
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/img-17.svg' alt='AvatarTop')
         h2 Ciclos Productivos
         p Ciclos productivos de las diferentes especies. Es decir, por ejemplo, el tiempo que se requiere entre nacimiento y destete, entre inseminación y nacimiento, entre siembra de alevinos y recolección de adultos.
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/img-18.svg' alt='AvatarTop')
         h2 Condiciones Climáticas
         p El comportamiento de las condiciones climáticas en la unidad productiva: corresponde con las temporadas secas, temporadas lluviosas, épocas de mayor incidencia de vientos, entre otras.
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/img-19.svg' alt='AvatarTop')
         h2 Festividades
         p Festividades y actividades socioculturales de los habitantes de la región.
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/img-20.svg' alt='AvatarTop')
         h2 Desplazamiento
         p Tiempos de desplazamiento entre la unidad productiva y los principales centros de consumo.  
 
-      .tarjeta.color-primario.p-4
+      .tarjeta.color-primario.p-4.col-ipad
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema4/img-21.svg' alt='AvatarTop')
@@ -300,10 +297,12 @@
         p Tipo de transporte predominante empleado en la zona.
 
     p Un ejemplo clásico de cronograma es el que se presenta a continuación, donde las actividades se presentan mes a mes.
-    p.mb-5 <strong>Inventario de materias primas e insumos</strong>
+    
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 #[b Tabla 23.] <em>Inventario de materias primas e insumos</em>
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-11(data-aos="fade-right")
+      .col-12.col-lg-12(data-aos="fade-right")
         .tabla-b.color-acento-contenido
           table(style="min-width:auto")
             thead
@@ -332,7 +331,7 @@
                 td
                 td
               tr
-                td(colspan="4").text-center Siembra de semilla de brachiaria 
+                td(colspan="4").text-center Siembra de semilla de <em>brachiaria</em> 
                 td 
                 td
                   i.fas.fa-calendar-check
@@ -408,10 +407,12 @@
                   i.fas.fa-calendar-check
 
     p En algunos cronogramas, es posible combinar las actividades que se van a desarrollar en la explotación con eventos externos a la unidad productiva, lo cual es de mucha utilidad cuando se están programando las actividades mensuales o semanales, pues permite prepararse para eventuales contingencias. 
-    p.mb-5 <strong>Ejemplo de cronograma de actividades con eventos programados</strong>
+
+    .titulo-sexto.color-acento-contenido
+      p.titulo.pb-0.mb-0 #[b Tabla 24.] <em>Ejemplo de cronograma de actividades con eventos programados</em>
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-lg-11(data-aos="fade-right")
+      .col-12.col-lg-12(data-aos="fade-right")
         .tabla-b.color-acento-contenido
           table(style="min-width:auto")
             thead
@@ -540,7 +541,7 @@
       
       .tarjeta.color-secundario.p-3(x="76.5%" y="79%" numero="+")
         .h5.mb-2 Recuperación: 
-        p es la etapa que se da después de superar la contingencia y corresponde con un periodo de restauración de las áreas afectadas. Igualmente, en este momento, se hace una evaluación del manejo de la contingencia con el fin de elaborar los respectivos planes de mejora. Producción por favor hacer un acordeón con este contenido
+        p es la etapa que se da después de superar la contingencia y corresponde con un periodo de restauración de las áreas afectadas. Igualmente, en este momento, se hace una evaluación del manejo de la contingencia con el fin de elaborar los respectivos planes de mejora.
 
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right", alt="")
