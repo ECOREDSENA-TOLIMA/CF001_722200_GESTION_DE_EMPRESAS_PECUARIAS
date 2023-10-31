@@ -321,6 +321,9 @@
                     td(style="background-color:#FFF") Adultos jóvenes
                     td(style="background-color:#FFF") 0,5 m²
                   tr  
+                    td(style="background-color:#FFF") Adultos
+                    td(style="background-color:#FFF") 1 m² 
+                  tr  
                     td(style="background-color:#FFF") Jaula para cerdas de cría
                     td(style="background-color:#FFF") 0,9 m² (ancho 0,45 m X largo 2,20 m)
         p En las explotaciones semitecnificadas, el espacio para la cerda de cría con sus lechones puede ser de 7 m², donde el 60 %, aproximadamente, del área es para la cerda y el restante 40 % es para las crías. 
@@ -483,25 +486,22 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 15 Áreas mínimas para Peces. En la tabla se observa la especie cachama blanca con 4 de densidad final aproximada de peces por metro cuadrado, mojarra roja con 15 metros cuadrados, tilapia con 4 a 15 metros cuadrados.")
             .titulo-sexto.color-acento-contenido
-              p.titulo.pb-0.mb-0 #[b Tabla 15.] <em>Períodos de descanso del área</em>
+              p.titulo.pb-0.mb-0 #[b Tabla 15.] <em>Períodos de descanso</em>
             .tabla-a.color-acento-contenido
               table
-                caption Fuente: https://www.engormix.com/ganaderia-leche/articulos/tecnificacion-fincas-ganaderas-practicas-t44659.html
+                caption Fuente: https://www.angelfire.com/ia2/ingenieriaagricola/pisicultura.htm
                 thead
                   tr
-                    th Especie
-                    th Densidad final. 
-                      | Aproximado de peces por m²
+                    th Área según especie 
+                    th Tiempo de descanso 
                 tbody
                   tr
-                    td(style="background-color:#FFF") Cachama blanca
-                    td(style="background-color:#FFF") 4
+                    td(style="background-color:#FFF") Para aves
+                    td(style="background-color:#FFF") 2 semanas
                   tr  
-                    td(style="background-color:#FFF") Mojarra roja
-                    td(style="background-color:#FFF") 15
-                  tr  
-                    td(style="background-color:#FFF") Tilapia
-                    td(style="background-color:#FFF") 4 - 15
+                    td(style="background-color:#FFF") Para conejos
+                    td(style="background-color:#FFF") 17 días
+
         p La densidad de animales por m² depende en buena medida del caudal de agua del estanque. Para caudales de entre 1 y 3 litros por segundo las densidades pueden ser de 4 peces por m². En caudales de 40 a 60 litros por segundo, es posible tener densidades de hasta 20 peces por m²     
 
     .row.mb-4
@@ -588,7 +588,7 @@
             tbody
               tr
                 td(style="background-color:#FFF") Unidades de longitud
-                td.text-center(style="background-color:#FFF") Metro
+                td.text-center(style="background-color:#FFF")
                   p.mb-0 Metro
                   p.mb-0 Kilómetro
                   p.mb-0 Decámetro

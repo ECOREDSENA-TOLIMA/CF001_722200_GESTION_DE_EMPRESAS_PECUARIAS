@@ -451,15 +451,15 @@
                     td(style="background-color:#FFF") <strong>Especies menores (conejos - cuyes)</strong>
                     td.p-2(style="background-color:#FFF")
                       p.mb-0 Edad destete
-                      p.mb-0 Peso corporal
-                      p.mb-0 Conversión de alimento
-                      p.mb-0 Edad al sacrificio
-                      p.mb-0 Intervalo destete monta
-                      p.mb-0 Abortos
-                      p.mb-0 Porcentaje de partos
-                      p.mb-0 Lechones nacidos vivos por camada
-                      p.mb-0 Lechones nacidos muertos
-                      p.mb-0 Partos/Cerda/Año
+                      p.mb-0 Peso crías al nacer 
+                      p.mb-0 Número de crías al año 
+                      p.mb-0 Partos al año
+                      p.mb-0 Peso
+                      p.mb-0 Camadas/hembra/año
+                      p.mb-0 Peso crías al destete
+                      p.mb-0 Edad al sacrificio 
+                      p.mb-0 Madurez sexual machos
+                      p.mb-0 Madurez sexual hembras 
                     td.p-2(style="background-color:#FFF") 
                       p.mb-0 Días
                       p.mb-0 Gramos
@@ -605,7 +605,7 @@
                 img(src='@/assets/curso/temas/tema1/img-22.svg', alt='La imagen nos indica los aspectos centrales de la gestión integral de la salud y la seguridad en el trabajo, en donde se contemplan tres aspectos básicos: •	Riesgos laborales. •	Elementos de protección •	Dotación a los trabajadores de la granja pecuaria')
               .row
                 .col-lg-6
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/clasificacion_de_productos.pdf')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
