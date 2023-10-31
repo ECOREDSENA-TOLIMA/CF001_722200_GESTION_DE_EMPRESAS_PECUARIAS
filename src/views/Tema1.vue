@@ -405,7 +405,7 @@
                     th Unidad
                 tbody
                   tr
-                    td(style="background-color:#FFF") <strong>Especies menores (conejos - cuyes)</strong>
+                    td(style="background-color:#FFF") <strong>Porcinos</strong>
                     td.p-2(style="background-color:#FFF")
                       p.mb-0 Edad a la primera monta
                       p.mb-0 Peso corporal
